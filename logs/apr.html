@@ -1,0 +1,2501 @@
+<!DOCTYPE html>
+<!-- saved from url=(0121)https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceMyRoster.aspx?year=2022&month=4&hresId=5416 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        .dot {
+            height: 14px;
+            width: 14px;
+            background-color: red;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            right: 4px;
+            bottom: 0px;
+        }
+        .dotCounter {
+            color: white;
+              font-size:9px;
+              position:absolute;
+              bottom:3px;
+              right:4px;
+        }
+       
+    </style>
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-capable" content="yes"><meta http-equiv="X-UA-Compatible" content="IE=9"><title>
+	N-OC | Mobile (SZSNOC-RATATOSK)
+</title>
+    <!-- iPhone -->
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-icon-57x57.png?v=22.2.13" sizes="57x57" rel="apple-touch-icon">
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-320x460.png?v=22.2.13" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    <!-- iPhone (Retina) -->
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-icon-114x114.png?v=22.2.13" sizes="114x114" rel="apple-touch-icon">
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-640x920.png?v=22.2.13" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <!-- iPhone 5 -->
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-640x1096.png?v=22.2.13" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <!-- iPad -->
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-icon-72x72.png?v=22.2.13" sizes="72x72" rel="apple-touch-icon">
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-768x1004.png?v=22.2.13" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-748x1024.png?v=22.2.13" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    <!-- iPad (Retina) -->
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-icon-144x144.png?v=22.2.13" sizes="144x144" rel="apple-touch-icon">
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-1536x2008.png?v=22.2.13" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-1496x2048.png?v=22.2.13" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link rel="stylesheet" href="./april_files/Style.css" type="text/css">
+    <link rel="stylesheet" href="./april_files/Mobile.css" type="text/css">
+    <link rel="stylesheet" href="./april_files/leftmenu.css" type="text/css">
+
+    <script type="text/javascript" src="./april_files/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="./april_files/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./april_files/jquery.touchslider.min.js"></script>
+    <script type="text/javascript" src="./april_files/RaidoMobile.js"></script>
+    <script type="text/javascript" src="./april_files/moment.js"></script>
+    <script type="text/javascript" src="./april_files/ScrollToPlugin.js"></script>
+    <script type="text/javascript" src="./april_files/jquery-ui.min.js"></script>
+    
+    <script>
+        const __ENV__ = {
+            VERSION: "22.2.13",
+            APPLICATION_URL: "https://szsnoc.navblue.aero/RaidoMobile",
+            APPLICATION_PATH: "/RaidoMobile",
+            PAGE_URL: "https://szsnoc.navblue.aero",
+            SERVICE_WORKER_URL: ''
+        };
+    </script>
+    <script src="./april_files/global-store.js" type="module"></script>
+    <script src="./april_files/trade-badge.js" type="module"></script>
+    
+    <style type="text/css">
+        .CalendarOverlay {
+            display: none;
+            -ms-opacity: 0.8;
+            opacity: 0.8;
+            background-color: #717171;
+            z-index: 2;
+            position: absolute; /*height: 756px;*/
+            width: 100%;
+        }
+
+        .DeletedHiddenInList
+        {
+            display: none;
+        }
+        
+        .actBackground.new
+        {
+            background-color: #3EE3EC;
+        }
+        .actBackground.modified
+        {
+            color: #FFE8E8 !important;
+            background-color: Teal;
+        }
+        .actBackground.Deleted
+        {
+            color: #FFE8E8 !important;
+            background-color: #FF2B2B;
+        }
+        
+        .InnerContainer
+        {
+            float: left;
+            text-align: left;
+        }
+        .c1
+        {
+            width: 60px;
+        }
+        .c2
+        {
+            width: 75px;
+        }
+        .c3
+        {
+            width: 70px;
+        }
+        .ColorBox
+        {
+            width: 24px;
+            height: 10px;
+            float: left;
+        }
+        .ColorInfo
+        {
+            width: 230px;
+            position: absolute;
+            top: -2px;
+            left: 851px;
+        }
+       
+        .tabtrain
+        {
+             width:500px !important;
+
+        }
+        .headertrain {
+            background-color:#9d9c9c !important;
+           
+
+        }
+        .headertrain th {
+            color:#FFFFFF;
+
+        }
+    </style>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            setAndResizeCalendarOverlay();
+
+            // attach click events
+            $('.ItemHeader').live('click', function () {
+                $(this).parent().children('.ItemDetails').toggle();
+                setAndResizeCalendarOverlay();
+            });
+            $('.ItemChildHeader').live('click', function () {
+                $(this).parent().children('.ItemChildDetails').toggle();
+                setAndResizeCalendarOverlay();
+            });
+
+            // scroll to todays date
+            //$('.highlight').scrollTo(-50, 700);
+
+            $('.btnConfirm').live('click', function () {
+                $.ajax({
+                    type: "POST",
+                    url: "../HumanResources/HumanResourceMyRoster.aspx/ConfirmRevision",
+                    data: JSON.stringify({ revisionIds: $(this).attr("revisionIds") }),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+                        if (data.d == "success") {
+                            window.location.reload(true);
+                        } else {
+                            alert("Error occured while confirming revision");
+                        }
+                    },
+                    error: function (data) {
+                        alert("Error occured while confirming revision");
+                    },
+                    complete: function () {
+                    }
+                });
+            });
+
+
+        });
+
+        function setAndResizeCalendarOverlay() {
+            if ($('#MasterMain_TotalNoOfRevisions').val() > 0) {
+                var calendarPanel = $('#ListPanel');
+                $('.CalendarOverlay').css("display", "block").css("height", calendarPanel.height());
+
+            }
+        }
+
+        function openNewWindowAndDownloadRosterFile() {
+            var monthYear = document.getElementById("MasterMain_hfFirstMonth").value;
+            var showCoB = $('#MasterMain_cbxShowCob').is(':checked');
+            window.open("../../Reports/HrRosterReport.ashx?date=" + monthYear + "&showCob=" + showCoB, '_blank');
+        }
+
+    </script>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1085.0" data-gr-ext-installed="">
+    <div id="header" class="avxgrad_yellow alwaysOverlay">
+	
+        <div class="topbar-float topbar-left">
+            <div id="goBackLink" class="go-back-button-container">
+		
+                <button type="button" class="go-back-button" style="background: url(&#39;/RaidoMobile/Images/back.png&#39;) center center;">
+                    <div class="overlay"></div>
+                </button>
+            
+	</div>
+        </div>
+        <div class="topbar-float topbar-center">
+            <a href="https://szsnoc.navblue.aero/RaidoMobile/MainPage.aspx">
+                <img src="./april_files/logo.png" alt="Company Logo" style="max-height: 30px"></a>
+        </div>
+        <div class="topbar-float topbar-right" style="position:relative;">
+            <div id="tradeCounter" class="topbar-button" style="position:relative; display: inline-block;">
+		
+                <x-trade-badge url="Grids/HumanResources/HumanResourceTradeBoard.aspx" data-dashlane-observed="true"></x-trade-badge>
+            
+	</div>
+            <a id="linkAbout" class="topbar-button" href="https://szsnoc.navblue.aero/RaidoMobile/About.aspx" style="position:relative;"><img src="./april_files/About.png" alt="" style="border-width:0px;"></a>
+            <a href="https://szsnoc.navblue.aero/RaidoMobile/Logout.aspx" class="topbar-button">
+            <img src="./april_files/Logout.png" alt="Logout"></a>
+        </div>
+        <br style="clear: left;">
+    
+</div>
+    <div id="wrapper" class="avxgrad_gray">
+	
+        <div style="padding: 10px;">
+            <form name="form" method="post" action="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceMyRoster.aspx?year=2022&amp;month=4&amp;hresId=5416&amp;rnd=326" id="form">
+	<div>
+	<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="1ZK6ZRQfh+c8uxh2qmDU0Aiv4GVDSx+wrgf3YTvw3jgvlgceR8NrMDk0o+wkA4W3XlPOvlEfpuizNTAX2b2poUIh38xXSEJNKjCUkMtNqnVofnQFTIslRD0WBBPBEmeiO6MP5T0IjarekHY7N91OGtgYRUIM+UnGn39LxqPAp7wpl2DuiMEwS5GQL+UKeruHYSptcbqsHL3axpur2Xyi4BMNPwTWJCGRRB/MVYybPE7emdyxaMYL3YOw7WEVOTST2ljB2l1E2jsl73wZrexxHXcTUOtM8y/2DOYc0t8UWsxYSqc2th/Po9z71h8BKIwuUJF1YUXWlGAF7/WhEvmd+4jywWDCnkeyRzk8r5wHF69wXAUKB+WYH5KI5CLb2g0/VAE7gRKmpi8JIDfgF2KdoDVt2liPe7fkIoahJEioF+PlnQu4fxUdEMfZZK0F4X84rQ/duRrfkzGgKl6QescyLT5Qobp0ntm/VaZspM2JlzzQZ3Mj7hAlMpsFPg5N0/l0zDPN7khKKCIYuUJxFVGFcQQSPlA2AoM+fR9SorqhdjetZbss/fPUSlBn2nYqc3bpVne1kisuAS9QsOVgZ+f7ugZXMMJzlGlPFOPFxEhTgOxNp5DOBBpIjbXPrMY5X+gLtlqODhp9fayVUTVGc3h98zYXQovGq9Ffq36UdBaUAW6O2gjSUSTqGFTBmUK6dCrIzHnlF3JgY7uPOJSeUF0ykpwRTxaIsS0JQQjaXAN1whuPwBxYz2L6azA5AAuPXk6fTh+ZjTsFN9cv9a8Zcd8LKwGjyOLA8GnJ4Lv2OwHul1PmK2Xpnstq0WCezM8g1MKTFwBK4YZ+2cARu6XYlZsFovQLC67js6QCySn8gEAEdtNa8bFOL2DMc9zaQ/7zQSkaqPMxJpAVFys7HyTxnW6vz0WMsjMm6e6kcMtpa1zPD+h/RQ4Qiz3qZTn8BD9Ylcw7r96x2ASYBixmdmVPiK76r3W342qzKrZUGRtcx2ueXUqcYoZlL5TaQOFZh+aSGV+cE79llkx34AHk0W6VzPaFuOKpeCA8lP6M5Fz9p478OzRjATnmcSEYGPmffyvu4icwCynxtFS0okKX1d865YUQCsHEDrm5dlYrS+Roz3JKHBzJjXgT2xzU+Mvu5pZIGa9z3dWvA6KFiZ/gDAAmccPq0d9Wty0XIaJlDQ470pL901ndMOcbNTfyXX3zrknxGofoGQl7b6jNZJQVIFXaTfJ+LHLqxoHEqfthddzWgELnJjRqhc3b2rmCuzRAFERfgeGYckgn1OjqX1WwNTIi3tAvyxEUYLiCDl53s5JBpdIMqUTDED1sptaH3c60fEGW9ueUO09s6KnvlJBXCpD9LIpc08lW0kfjPJPrPSEUbqYfSgFwI09m2+V2r9us8BRzbUfC7HHi0XjWj8rcRJKynTUsjWQuK9FnNZWgSe+Bf1SntEUOCjvqecA6dSWSFlJq0XAhdAF6TIQeuKsRReA6CTuvUCGDNfa4d7WvASMD6uT8VKqp30vHxlUnlgGN7kG0O5i8x+7Av0Q1UCwHFjIPhamkomwwKr+Q+uaSsbNen5BxcfCQCBQ1ACxyhCJklqusugLRgVVB7d/zwYitScTIJ4I1GeZA6GY77elJSmQlbXgdNElMnXhsk1dGszCWAQogf0bIDGNfXho1FyonjiJ0jGODDNm7P0Uf6TTXs0AJMh2TeCBZIKpxtYPIbqp2xht/Wz2IGvsa+6+trHSPjDrstFh2mQZjs1uR/kzFDTb0rfRnRDmhY2dfbA7ZTPCo9NESjjt14ZPuVgQZJj2/eNPlP5HFAKm8gqOvbN7lPOId1k8G3Obo0OoV+7mEPE4Oqj7YkkLWVEo4wftPwzFM0M7exob5N9QIttETc0+KVXSXJW8l5LnqBwnS3oJJuPAecPgLBKymavfZ57sZTSsQrVXv5CeDdj7bN7at8UP+vqrzr0A6KEI=">
+	</div>
+
+	<div>
+
+		<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="10421116">
+		<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="G66TS7Ihu0MaUHXX+fouYevw1AGQ7UP8c4F0nMWNbX2EjrGniwmUHxWYbM3DRZrYRw81vGdqEvMRt2NNDwzR6OjQOkwXkMox4iRYVcG09x3ruhkuKB+CTXDRd/RHOzQiUs0xsgOVuczT7rs7Qyydb1C+dYcMdqiIHBIC1JzsOINAEAj9SHx5EdOz70B5xuWs2D+WUpv2GMZVwgx6axYZqGMfKagCjau5W9XSPaEws8A4Zczx+kUldC0hV5jFjz4zSr8oInqp/g0v8eKBQVPpVMZ0oKbPLZ84F79gAODla9g=">
+	</div>	
+                
+    <input type="hidden" name="ctl00$MasterMain$hfSelectedMonthYear" id="MasterMain_hfSelectedMonthYear" value=" APR 2022">
+    <input type="hidden" name="ctl00$MasterMain$hfFirstMonth" id="MasterMain_hfFirstMonth" value="3_2022">
+    <input type="hidden" name="ctl00$MasterMain$hfLastMonth" id="MasterMain_hfLastMonth" value="3_2022">
+    <input type="hidden" name="ctl00$MasterMain$hfScrollTo" id="MasterMain_hfScrollTo">
+    <input type="hidden" name="ctl00$MasterMain$TotalNoOfRevisions" id="MasterMain_TotalNoOfRevisions" value="0">
+    <div id="MasterMain_PageHeader_PageHeader" class="PageHeader">
+		
+    <table>
+        <tbody><tr>
+            <td id="MasterMain_PageHeader_PageHeaderLeft" style="width: 15%;"><input type="submit" name="ctl00$MasterMain$PageHeader$ctl00" value="Previous" onclick="fadeToGray();" class="button4"></td>
+		
+            <td id="MasterMain_PageHeader_PageHeaderCenter" style="width: 70%;"><span>April 2022</span></td>
+		
+            <td id="MasterMain_PageHeader_PageHeaderRight" style="width: 15%;"><input type="submit" name="ctl00$MasterMain$PageHeader$ctl01" value="Next" onclick="fadeToGray();" class="button4"></td>
+		
+        </tr>
+    </tbody></table>
+
+	</div>
+
+    <div id="MasterMain_CalendarMasterPanel">
+		
+        <span style="color:White;"><input id="MasterMain_cbxShowCob" type="checkbox" name="ctl00$MasterMain$cbxShowCob"><label for="MasterMain_cbxShowCob">Show Crew On Board</label></span>
+        <input type="submit" name="ctl00$MasterMain$btnPrint" value="Print" onclick="openNewWindowAndDownloadRosterFile(); return false;" id="MasterMain_btnPrint" class="button4 longButton">
+        
+        <br>
+        <br>
+        
+<div class="RoundedArea block">
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    
+                            <div style="float: left; padding: 5px 5px 0 0;">
+                                FDP :
+                            </div>
+
+                            <div class="BoxItem borders" style="float: left; margin-right: 10px">
+                                122:4
+                            </div>
+                        
+                            <div style="float: left; padding: 5px 5px 0 0;">
+                                Duty :
+                            </div>
+
+                            <div class="BoxItem borders" style="float: left; margin-right: 10px">
+                                145:46
+                            </div>
+                        
+                            <div style="float: left; padding: 5px 5px 0 0;">
+                                BLH :
+                            </div>
+
+                            <div class="BoxItem borders" style="float: left; margin-right: 10px">
+                                89:46
+                            </div>
+                        
+                            <div style="float: left; padding: 5px 5px 0 0;">
+                                BLH :
+                            </div>
+
+                            <div class="BoxItem borders" style="float: left; margin-right: 10px">
+                                89:46
+                            </div>
+                        
+                            <div style="float: left; padding: 5px 5px 0 0;">
+                                Duty :
+                            </div>
+
+                            <div class="BoxItem borders" style="float: left; margin-right: 10px">
+                                145:46
+                            </div>
+                        
+                            <div style="float: left; padding: 5px 5px 0 0;">
+                                FDP :
+                            </div>
+
+                            <div class="BoxItem borders" style="float: left; margin-right: 10px">
+                                122:04
+                            </div>
+                        
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+        
+        
+        <div id="MasterMain_CalendarOverlay" class="CalendarOverlay">
+			
+        
+		</div>
+        <div id="ListPanel" class="ListPanel">
+			
+        <div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Fri</span><span class="bigvalue" style="color:rgb();display:block;">1</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">01APR22 00:00 (UTC) / 01APR22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">01APR22 23:59 (UTC) / 02APR22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=1&amp;v=5416&amp;psta=2027&amp;pend=2027&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sat</span><span class="bigvalue" style="color:rgb(0,0,255);display:block;">2</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">02APR22 00:00 (UTC) / 02APR22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">02APR22 23:59 (UTC) / 03APR22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=2&amp;v=5416&amp;psta=2028&amp;pend=2028&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sun</span><span class="bigvalue" style="color:rgb(255,0,0);display:block;">3</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">03APR22 00:00 (UTC) / 03APR22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">03APR22 23:59 (UTC) / 04APR22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=3&amp;v=5416&amp;psta=2029&amp;pend=2029&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Mon</span><span class="bigvalue" style="color:rgb();display:block;">4</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 50%, White 50%, White 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>SK777...</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0545</td><td>CO 1436</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK777</td><td>0545</td><td>0639</td><td>CPH</td><td>ATH</td><td>0942</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK777</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5837">ATH - LGAV - ELEFTHERIOS VENIZELOS INTL</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">04APR22 05:45 (UTC) / 04APR22 07:45 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">04APR22 06:39 (UTC) / 04APR22 08:39 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">04APR22 09:42 (UTC) / 04APR22 12:42 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIG</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92676a Hansen, Allan (X) <a href="mailto:allan.hansen@sas.dk" target="_top" class="NoAction">allan.hansen@sas.dk</a> <br>SCC - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br>CC - 92578a Ahlefeldt-Laurvig, Bolette  <a href="mailto:Bolette.Ahlefeldt-Laurvig@sas.dk" target="_top" class="NoAction">Bolette.Ahlefeldt-Laurvig@sas.dk</a> <br>CC - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br>CC - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK778</td><td></td><td>1048</td><td>ATH</td><td>CPH</td><td>1421</td><td>1436</td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK778</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5837">ATH - LGAV - ELEFTHERIOS VENIZELOS INTL</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">04APR22 10:48 (UTC) / 04APR22 13:48 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">04APR22 14:21 (UTC) / 04APR22 16:21 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">04APR22 14:36 (UTC) / 04APR22 16:36 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIG</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92676a Hansen, Allan (X) <a href="mailto:allan.hansen@sas.dk" target="_top" class="NoAction">allan.hansen@sas.dk</a> <br>SCC - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br>CC - 92578a Ahlefeldt-Laurvig, Bolette  <a href="mailto:Bolette.Ahlefeldt-Laurvig@sas.dk" target="_top" class="NoAction">Bolette.Ahlefeldt-Laurvig@sas.dk</a> <br>CC - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br>CC - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=4&amp;v=5416&amp;psta=2030&amp;pend=2030&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Tue</span><span class="bigvalue" style="color:rgb();display:block;">5</span></td><td style="background-color:#1D7EED !important;color:#FFFFFF !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>EHSBY</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0240</td><td>CO 1200</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>EHSBY</td><td>0240</td><td>0240</td><td>CPH</td><td>CPH</td><td>1200</td><td>1200</td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">EHSBY,Early Home Standby</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">05APR22 02:40 (UTC) / 05APR22 04:40 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">05APR22 02:40 (UTC) / 05APR22 04:40 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">05APR22 12:00 (UTC) / 05APR22 14:00 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">05APR22 12:00 (UTC) / 05APR22 14:00 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=5&amp;v=5416&amp;psta=2031&amp;pend=2031&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Wed</span><span class="bigvalue" style="color:rgb();display:block;">6</span></td><td style="background-color:#1D7EED !important;color:#FFFFFF !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>EHSBY</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0200</td><td>CO 1200</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>EHSBY</td><td>0200</td><td>0200</td><td>CPH</td><td>CPH</td><td>1200</td><td>1200</td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">EHSBY,Early Home Standby</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">06APR22 02:00 (UTC) / 06APR22 04:00 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">06APR22 02:00 (UTC) / 06APR22 04:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">06APR22 12:00 (UTC) / 06APR22 14:00 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">06APR22 12:00 (UTC) / 06APR22 14:00 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=6&amp;v=5416&amp;psta=2032&amp;pend=2032&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Thu</span><span class="bigvalue" style="color:rgb();display:block;">7</span></td><td style="background-color:#1D7EED !important;color:#FFFFFF !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>EHSBY</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0200</td><td>CO 1200</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>EHSBY</td><td>0200</td><td>0200</td><td>CPH</td><td>CPH</td><td>1200</td><td>1200</td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">EHSBY,Early Home Standby</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">07APR22 02:00 (UTC) / 07APR22 04:00 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">07APR22 02:00 (UTC) / 07APR22 04:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">07APR22 12:00 (UTC) / 07APR22 14:00 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">07APR22 12:00 (UTC) / 07APR22 14:00 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=7&amp;v=5416&amp;psta=2033&amp;pend=2033&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Fri</span><span class="bigvalue" style="color:rgb();display:block;">8</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 50%, White 50%, White 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>SK777...</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0545</td><td>CO 1418</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK777</td><td>0545</td><td>0640</td><td>CPH</td><td>ATH</td><td>0944</td><td></td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK777</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5837">ATH - LGAV - ELEFTHERIOS VENIZELOS INTL</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">08APR22 05:45 (UTC) / 08APR22 07:45 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">08APR22 06:40 (UTC) / 08APR22 08:40 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">08APR22 09:44 (UTC) / 08APR22 12:44 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIH</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92480a Lutzhoft, Henrik Christian  <a href="mailto:Henrik.Luetzhoft@sas.dk" target="_top" class="NoAction">Henrik.Luetzhoft@sas.dk</a> <br>SCC - 92706a Haar Petersen, Henrik  <a href="mailto:Henrik.Petersen3@sas.dk" target="_top" class="NoAction">Henrik.Petersen3@sas.dk</a> <br>CC - 92508a Larsson, Simon  <a href="mailto:Simon.Larsson@sas.dk" target="_top" class="NoAction">Simon.Larsson@sas.dk</a> <br>CC - 92491a Pettersen, Ida Lagesen  <a href="mailto:IdaLagesen.Pettersen@sas.dk" target="_top" class="NoAction">IdaLagesen.Pettersen@sas.dk</a> <br>CC - 92814a Nawaz, Anas (U,FAM) <a href="mailto:Anas.Nawaz@sas.dk" target="_top" class="NoAction">Anas.Nawaz@sas.dk</a> <br>CC - 92705a Malmstein, Andreas  <a href="mailto:Andreas.Malmstein@sas.dk" target="_top" class="NoAction">Andreas.Malmstein@sas.dk</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK778</td><td></td><td>1040</td><td>ATH</td><td>CPH</td><td>1403</td><td>1418</td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK778</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5837">ATH - LGAV - ELEFTHERIOS VENIZELOS INTL</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">08APR22 10:40 (UTC) / 08APR22 13:40 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">08APR22 14:03 (UTC) / 08APR22 16:03 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">08APR22 14:18 (UTC) / 08APR22 16:18 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIH</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92480a Lutzhoft, Henrik Christian (X) <a href="mailto:Henrik.Luetzhoft@sas.dk" target="_top" class="NoAction">Henrik.Luetzhoft@sas.dk</a> <br>SCC - 92706a Haar Petersen, Henrik  <a href="mailto:Henrik.Petersen3@sas.dk" target="_top" class="NoAction">Henrik.Petersen3@sas.dk</a> <br>CC - 92508a Larsson, Simon  <a href="mailto:Simon.Larsson@sas.dk" target="_top" class="NoAction">Simon.Larsson@sas.dk</a> <br>CC - 92491a Pettersen, Ida Lagesen  <a href="mailto:IdaLagesen.Pettersen@sas.dk" target="_top" class="NoAction">IdaLagesen.Pettersen@sas.dk</a> <br>CC - 92814a Nawaz, Anas (U,FAM) <a href="mailto:Anas.Nawaz@sas.dk" target="_top" class="NoAction">Anas.Nawaz@sas.dk</a> <br>CC - 92705a Malmstein, Andreas  <a href="mailto:Andreas.Malmstein@sas.dk" target="_top" class="NoAction">Andreas.Malmstein@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=8&amp;v=5416&amp;psta=2034&amp;pend=2034&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sat</span><span class="bigvalue" style="color:rgb(0,0,255);display:block;">9</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">09APR22 00:00 (UTC) / 09APR22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">09APR22 23:59 (UTC) / 10APR22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=9&amp;v=5416&amp;psta=2035&amp;pend=2035&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sun</span><span class="bigvalue" style="color:rgb(255,0,0);display:block;">10</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">10APR22 00:00 (UTC) / 10APR22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">10APR22 23:59 (UTC) / 11APR22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=10&amp;v=5416&amp;psta=2036&amp;pend=2036&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Mon</span><span class="bigvalue" style="color:rgb();display:block;">11</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">11APR22 00:00 (UTC) / 11APR22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">11APR22 23:59 (UTC) / 12APR22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=11&amp;v=5416&amp;psta=2037&amp;pend=2037&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Tue</span><span class="bigvalue" style="color:rgb();display:block;">12</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 33.3333333333333%, White 33.3333333333333%, White 66.6666666666667%, #EBEB2C 66.6666666666667%, #EBEB2C 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>SK681...</td><td>ARN</td>
+						</tr><tr>
+							<td>CI 0715</td><td>CO 1635</td>
+						</tr>
+					</tbody></table></td><td style="width:50px;background:#F7C603;"><span style="background:#F7C603;display:block;">HTL</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK681</td><td>0715</td><td>0758</td><td>CPH</td><td>FCO</td><td>1030</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK681</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6948">FCO - LIRF - ROME LEONARDO DA VINCI-FIUMICINO APT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">12APR22 07:15 (UTC) / 12APR22 09:15 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">12APR22 07:58 (UTC) / 12APR22 09:58 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">12APR22 10:30 (UTC) / 12APR22 12:30 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">OYKAT</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32C</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32C</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92484a Sejerskilde, Kent (X) <a href="mailto:Kent.Sejerskilde@sas.dk" target="_top" class="NoAction">Kent.Sejerskilde@sas.dk</a> <br>SCC - 92625a Plambeck, Jannie  <a href="mailto:Jannie.Plambeck@sas.dk" target="_top" class="NoAction">Jannie.Plambeck@sas.dk</a> <br>CC - 92637a Pedersen, Alexandra Clare  <a href="mailto:AlexandraClare.Pedersen@sas.dk" target="_top" class="NoAction">AlexandraClare.Pedersen@sas.dk</a> <br>CC - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br>CC - 92736a Uppelin, Emil (L) <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK682</td><td></td><td>1121</td><td>FCO</td><td>CPH</td><td>1352</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK682</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6948">FCO - LIRF - ROME LEONARDO DA VINCI-FIUMICINO APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">12APR22 11:21 (UTC) / 12APR22 13:21 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">12APR22 13:52 (UTC) / 12APR22 15:52 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">OYKAT</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32C</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32C</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92484a Sejerskilde, Kent  <a href="mailto:Kent.Sejerskilde@sas.dk" target="_top" class="NoAction">Kent.Sejerskilde@sas.dk</a> <br>SCC - 92625a Plambeck, Jannie  <a href="mailto:Jannie.Plambeck@sas.dk" target="_top" class="NoAction">Jannie.Plambeck@sas.dk</a> <br>CC - 92637a Pedersen, Alexandra Clare  <a href="mailto:AlexandraClare.Pedersen@sas.dk" target="_top" class="NoAction">AlexandraClare.Pedersen@sas.dk</a> <br>CC - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br>CC - 92736a Uppelin, Emil (L) <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1408</td><td></td><td>1505</td><td>CPH</td><td>ARN</td><td>1620</td><td>1635</td><td> <span style="background-color: Aqua;">&nbsp;&nbsp;</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK,FLYSK</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">12APR22 15:05 (UTC) / 12APR22 17:05 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">12APR22 16:20 (UTC) / 12APR22 18:20 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">12APR22 16:35 (UTC) / 12APR22 18:35 (LT)</td>
+				</tr><tr>
+					<td class="right">Day Note</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td style="color:#000000;background-color:Aqua;"><a class="pnr-number">STFUU5</a></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>1635</td><td>ARN</td><td>ARN</td><td>13APR</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">12APR22 16:35 (UTC) / 12APR22 18:35 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">13APR22 04:25 (UTC) / 13APR22 06:25 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 92809a Anusic, Jelena  <a href="mailto:Jelena.Anusic@sas.dk" target="_top" class="NoAction">Jelena.Anusic@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=12&amp;v=5416&amp;psta=2038&amp;pend=2038&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"><div style="color:#000000;background-color:Aqua;"><a class="pnr-number">STFUU5</a></div></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Wed</span><span class="bigvalue" style="color:rgb();display:block;">13</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 50%, White 50%, White 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>ARN</td><td>SK1805...</td><td>ARN</td>
+						</tr><tr>
+							<td>CI 0425</td><td>CO 1518</td>
+						</tr>
+					</tbody></table></td><td style="width:50px;background:#F7C603;"><span style="background:#F7C603;display:block;">HTL</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>12APR</td><td>ARN</td><td>ARN</td><td>0425</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">12APR22 16:35 (UTC) / 12APR22 18:35 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">13APR22 04:25 (UTC) / 13APR22 06:25 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 92809a Anusic, Jelena  <a href="mailto:Jelena.Anusic@sas.dk" target="_top" class="NoAction">Jelena.Anusic@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1805</td><td>0425</td><td>0640</td><td>ARN</td><td>PMI</td><td>1026</td><td></td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK1805</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=9293">PMI - LEPA - PALMA DE MALLORCA</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">13APR22 04:25 (UTC) / 13APR22 06:25 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">13APR22 06:40 (UTC) / 13APR22 08:40 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">13APR22 10:26 (UTC) / 13APR22 12:26 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">OYKAU</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32C</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32C</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 97927 Daig, Dominik  <a href="mailto:Dominik.Daig@cae.com" target="_top" class="NoAction">Dominik.Daig@cae.com</a> <br>SCC - 93064a Ersson, Anton  <a href="mailto:Anton.Ersson@sas.se" target="_top" class="NoAction">Anton.Ersson@sas.se</a> <br>CC - 93057a Ekström, Marie (I) <a href="mailto:Marie.Ekstroem@sas.se" target="_top" class="NoAction">Marie.Ekstroem@sas.se</a> <br>CC - 92809a Anusic, Jelena (T) <a href="mailto:Jelena.Anusic@sas.dk" target="_top" class="NoAction">Jelena.Anusic@sas.dk</a> <br>CC - 93149a Abdulstar Mohammed, Mardin (T) <a href="mailto:Mardin.Abdulstar@sas.se" target="_top" class="NoAction">Mardin.Abdulstar@sas.se</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1806</td><td></td><td>1124</td><td>PMI</td><td>ARN</td><td>1503</td><td>1518</td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK1806</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=9293">PMI - LEPA - PALMA DE MALLORCA</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">13APR22 11:24 (UTC) / 13APR22 13:24 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">13APR22 15:03 (UTC) / 13APR22 17:03 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">13APR22 15:18 (UTC) / 13APR22 17:18 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">OYKAU</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32C</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32C</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 97927 Daig, Dominik (X) <a href="mailto:Dominik.Daig@cae.com" target="_top" class="NoAction">Dominik.Daig@cae.com</a> <br>SCC - 93064a Ersson, Anton  <a href="mailto:Anton.Ersson@sas.se" target="_top" class="NoAction">Anton.Ersson@sas.se</a> <br>CC - 93057a Ekström, Marie (I) <a href="mailto:Marie.Ekstroem@sas.se" target="_top" class="NoAction">Marie.Ekstroem@sas.se</a> <br>CC - 92809a Anusic, Jelena (T) <a href="mailto:Jelena.Anusic@sas.dk" target="_top" class="NoAction">Jelena.Anusic@sas.dk</a> <br>CC - 93149a Abdulstar Mohammed, Mardin (T) <a href="mailto:Mardin.Abdulstar@sas.se" target="_top" class="NoAction">Mardin.Abdulstar@sas.se</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>1635</td><td>ARN</td><td>ARN</td><td>14APR</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">13APR22 16:35 (UTC) / 13APR22 18:35 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">14APR22 03:25 (UTC) / 14APR22 05:25 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 112723 Kovacs, Attila  <a href="mailto:attila.kovacs@cae.com" target="_top" class="NoAction">attila.kovacs@cae.com</a> <br> - 92570a Sala, Giacomo  <a href="mailto:giacomoroberto.sala@sas.dk" target="_top" class="NoAction">giacomoroberto.sala@sas.dk</a> <br> - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br> - 92636a Hassellöf, Robin (SWAP) <a href="mailto:Robin.Hasselloef@sas.dk" target="_top" class="NoAction">Robin.Hasselloef@sas.dk</a> <br> - 92618a Jaldin Alanis, Tatiana  <a href="mailto:Tatiana.JaldinAlanis@sas.dk" target="_top" class="NoAction">Tatiana.JaldinAlanis@sas.dk</a> <br> - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=13&amp;v=5416&amp;psta=2039&amp;pend=2039&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Thu</span><span class="bigvalue" style="color:rgb();display:block;">14</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 50%, White 50%, White 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>ARN</td><td>SK1805...</td><td>ARN</td>
+						</tr><tr>
+							<td>CI 0325</td><td>CO 1241</td>
+						</tr>
+					</tbody></table></td><td style="width:50px;background:#F7C603;"><span style="background:#F7C603;display:block;">HTL</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>13APR</td><td>ARN</td><td>ARN</td><td>0325</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">13APR22 16:35 (UTC) / 13APR22 18:35 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">14APR22 03:25 (UTC) / 14APR22 05:25 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 112723 Kovacs, Attila  <a href="mailto:attila.kovacs@cae.com" target="_top" class="NoAction">attila.kovacs@cae.com</a> <br> - 92570a Sala, Giacomo  <a href="mailto:giacomoroberto.sala@sas.dk" target="_top" class="NoAction">giacomoroberto.sala@sas.dk</a> <br> - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br> - 92636a Hassellöf, Robin (SWAP) <a href="mailto:Robin.Hasselloef@sas.dk" target="_top" class="NoAction">Robin.Hasselloef@sas.dk</a> <br> - 92618a Jaldin Alanis, Tatiana  <a href="mailto:Tatiana.JaldinAlanis@sas.dk" target="_top" class="NoAction">Tatiana.JaldinAlanis@sas.dk</a> <br> - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1805</td><td>0325</td><td>0411</td><td>ARN</td><td>PMI</td><td>0755</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK1805</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=9293">PMI - LEPA - PALMA DE MALLORCA</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">14APR22 03:25 (UTC) / 14APR22 05:25 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">14APR22 04:11 (UTC) / 14APR22 06:11 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">14APR22 07:55 (UTC) / 14APR22 09:55 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISII</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 98842 Captain, Sohrab (X) <a href="mailto:sohrab.captain@cae.com" target="_top" class="NoAction">sohrab.captain@cae.com</a> <br>SCC - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br>CC - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br>CC - 92618a Jaldin Alanis, Tatiana  <a href="mailto:Tatiana.JaldinAlanis@sas.dk" target="_top" class="NoAction">Tatiana.JaldinAlanis@sas.dk</a> <br>CC - 92636a Hassellöf, Robin (SWAP) <a href="mailto:Robin.Hasselloef@sas.dk" target="_top" class="NoAction">Robin.Hasselloef@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1806</td><td></td><td>0854</td><td>PMI</td><td>ARN</td><td>1226</td><td>1241</td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK1806</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=9293">PMI - LEPA - PALMA DE MALLORCA</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">14APR22 08:54 (UTC) / 14APR22 10:54 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">14APR22 12:26 (UTC) / 14APR22 14:26 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">14APR22 12:41 (UTC) / 14APR22 14:41 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISII</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 98842 Captain, Sohrab  <a href="mailto:sohrab.captain@cae.com" target="_top" class="NoAction">sohrab.captain@cae.com</a> <br>SCC - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br>CC - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br>CC - 92618a Jaldin Alanis, Tatiana  <a href="mailto:Tatiana.JaldinAlanis@sas.dk" target="_top" class="NoAction">Tatiana.JaldinAlanis@sas.dk</a> <br>CC - 92636a Hassellöf, Robin (SWAP) <a href="mailto:Robin.Hasselloef@sas.dk" target="_top" class="NoAction">Robin.Hasselloef@sas.dk</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>1245</td><td>ARN</td><td>ARN</td><td>15APR</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">14APR22 12:45 (UTC) / 14APR22 14:45 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">15APR22 03:25 (UTC) / 15APR22 05:25 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 92484a Sejerskilde, Kent  <a href="mailto:Kent.Sejerskilde@sas.dk" target="_top" class="NoAction">Kent.Sejerskilde@sas.dk</a> <br> - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br> - 92636a Hassellöf, Robin (SWAP) <a href="mailto:Robin.Hasselloef@sas.dk" target="_top" class="NoAction">Robin.Hasselloef@sas.dk</a> <br> - 92618a Jaldin Alanis, Tatiana  <a href="mailto:Tatiana.JaldinAlanis@sas.dk" target="_top" class="NoAction">Tatiana.JaldinAlanis@sas.dk</a> <br> - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=14&amp;v=5416&amp;psta=2040&amp;pend=2040&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Fri</span><span class="bigvalue" style="color:rgb();display:block;">15</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 50%, White 50%, White 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>ARN</td><td>SK1805...</td><td>ARN</td>
+						</tr><tr>
+							<td>CI 0325</td><td>CO 1317</td>
+						</tr>
+					</tbody></table></td><td style="width:50px;background:#F7C603;"><span style="background:#F7C603;display:block;">HTL</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>14APR</td><td>ARN</td><td>ARN</td><td>0325</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">14APR22 12:45 (UTC) / 14APR22 14:45 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">15APR22 03:25 (UTC) / 15APR22 05:25 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 92484a Sejerskilde, Kent  <a href="mailto:Kent.Sejerskilde@sas.dk" target="_top" class="NoAction">Kent.Sejerskilde@sas.dk</a> <br> - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br> - 92636a Hassellöf, Robin (SWAP) <a href="mailto:Robin.Hasselloef@sas.dk" target="_top" class="NoAction">Robin.Hasselloef@sas.dk</a> <br> - 92618a Jaldin Alanis, Tatiana  <a href="mailto:Tatiana.JaldinAlanis@sas.dk" target="_top" class="NoAction">Tatiana.JaldinAlanis@sas.dk</a> <br> - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1805</td><td>0325</td><td>0444</td><td>ARN</td><td>PMI</td><td>0820</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK1805</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=9293">PMI - LEPA - PALMA DE MALLORCA</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">15APR22 03:25 (UTC) / 15APR22 05:25 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">15APR22 04:44 (UTC) / 15APR22 06:44 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">15APR22 08:20 (UTC) / 15APR22 10:20 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIL</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92484a Sejerskilde, Kent (X) <a href="mailto:Kent.Sejerskilde@sas.dk" target="_top" class="NoAction">Kent.Sejerskilde@sas.dk</a> <br>SCC - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br>CC - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br>CC - 92618a Jaldin Alanis, Tatiana  <a href="mailto:Tatiana.JaldinAlanis@sas.dk" target="_top" class="NoAction">Tatiana.JaldinAlanis@sas.dk</a> <br>CC - 92636a Hassellöf, Robin (SWAP) <a href="mailto:Robin.Hasselloef@sas.dk" target="_top" class="NoAction">Robin.Hasselloef@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1806</td><td></td><td>0919</td><td>PMI</td><td>ARN</td><td>1302</td><td>1317</td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK1806</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=9293">PMI - LEPA - PALMA DE MALLORCA</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">15APR22 09:19 (UTC) / 15APR22 11:19 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">15APR22 13:02 (UTC) / 15APR22 15:02 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">15APR22 13:17 (UTC) / 15APR22 15:17 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIL</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92484a Sejerskilde, Kent  <a href="mailto:Kent.Sejerskilde@sas.dk" target="_top" class="NoAction">Kent.Sejerskilde@sas.dk</a> <br>SCC - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br>CC - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br>CC - 92618a Jaldin Alanis, Tatiana  <a href="mailto:Tatiana.JaldinAlanis@sas.dk" target="_top" class="NoAction">Tatiana.JaldinAlanis@sas.dk</a> <br>CC - 92636a Hassellöf, Robin (SWAP) <a href="mailto:Robin.Hasselloef@sas.dk" target="_top" class="NoAction">Robin.Hasselloef@sas.dk</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>1240</td><td>ARN</td><td>ARN</td><td>16APR</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">15APR22 12:40 (UTC) / 15APR22 14:40 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">16APR22 06:40 (UTC) / 16APR22 08:40 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 92484a Sejerskilde, Kent  <a href="mailto:Kent.Sejerskilde@sas.dk" target="_top" class="NoAction">Kent.Sejerskilde@sas.dk</a> <br> - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br> - 92636a Hassellöf, Robin (SWAP) <a href="mailto:Robin.Hasselloef@sas.dk" target="_top" class="NoAction">Robin.Hasselloef@sas.dk</a> <br> - 92618a Jaldin Alanis, Tatiana  <a href="mailto:Tatiana.JaldinAlanis@sas.dk" target="_top" class="NoAction">Tatiana.JaldinAlanis@sas.dk</a> <br> - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=15&amp;v=5416&amp;psta=2041&amp;pend=2041&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sat</span><span class="bigvalue" style="color:rgb(0,0,255);display:block;">16</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 33.3333333333333%, White 33.3333333333333%, White 66.6666666666667%, #EBEB2C 66.6666666666667%, #EBEB2C 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>ARN</td><td>SK689...</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0640</td><td>CO 1830</td>
+						</tr>
+					</tbody></table></td><td style="width:50px;background:#F7C603;"><span style="background:#F7C603;display:block;">HTL</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>15APR</td><td>ARN</td><td>ARN</td><td>0640</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">15APR22 12:40 (UTC) / 15APR22 14:40 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">16APR22 06:40 (UTC) / 16APR22 08:40 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 92484a Sejerskilde, Kent  <a href="mailto:Kent.Sejerskilde@sas.dk" target="_top" class="NoAction">Kent.Sejerskilde@sas.dk</a> <br> - 92492a DeGrassi Terzic, René  <a href="mailto:Rene.DeGrassiTerzic@sas.dk" target="_top" class="NoAction">Rene.DeGrassiTerzic@sas.dk</a> <br> - 92636a Hassellöf, Robin (SWAP) <a href="mailto:Robin.Hasselloef@sas.dk" target="_top" class="NoAction">Robin.Hasselloef@sas.dk</a> <br> - 92618a Jaldin Alanis, Tatiana  <a href="mailto:Tatiana.JaldinAlanis@sas.dk" target="_top" class="NoAction">Tatiana.JaldinAlanis@sas.dk</a> <br> - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK689</td><td>0640</td><td>0734</td><td>ARN</td><td>LIN</td><td>1005</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK689</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=8182">LIN - LIML - MILAN LINATE APT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">16APR22 06:40 (UTC) / 16APR22 08:40 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">16APR22 07:34 (UTC) / 16APR22 09:34 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">16APR22 10:05 (UTC) / 16APR22 12:05 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">OYKAU</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32C</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32C</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92484a Sejerskilde, Kent (X) <a href="mailto:Kent.Sejerskilde@sas.dk" target="_top" class="NoAction">Kent.Sejerskilde@sas.dk</a> <br>SCC - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br>CC - 93145a Lillebæk, Jette  <a href="mailto:jette.lillebaek@sas.se" target="_top" class="NoAction">jette.lillebaek@sas.se</a> <br>CC - 92618a Jaldin Alanis, Tatiana  <a href="mailto:Tatiana.JaldinAlanis@sas.dk" target="_top" class="NoAction">Tatiana.JaldinAlanis@sas.dk</a> <br>CC - 92636a Hassellöf, Robin (SWAP) <a href="mailto:Robin.Hasselloef@sas.dk" target="_top" class="NoAction">Robin.Hasselloef@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK690</td><td></td><td>1053</td><td>LIN</td><td>ARN</td><td>1340</td><td></td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK690</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=8182">LIN - LIML - MILAN LINATE APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">16APR22 10:53 (UTC) / 16APR22 12:53 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">16APR22 13:40 (UTC) / 16APR22 15:40 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">OYKAU</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32C</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32C</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92484a Sejerskilde, Kent  <a href="mailto:Kent.Sejerskilde@sas.dk" target="_top" class="NoAction">Kent.Sejerskilde@sas.dk</a> <br>SCC - 92736a Uppelin, Emil  <a href="mailto:emil.uppelin@sas.dk" target="_top" class="NoAction">emil.uppelin@sas.dk</a> <br>CC - 93145a Lillebæk, Jette  <a href="mailto:jette.lillebaek@sas.se" target="_top" class="NoAction">jette.lillebaek@sas.se</a> <br>CC - 92618a Jaldin Alanis, Tatiana  <a href="mailto:Tatiana.JaldinAlanis@sas.dk" target="_top" class="NoAction">Tatiana.JaldinAlanis@sas.dk</a> <br>CC - 92636a Hassellöf, Robin (SWAP) <a href="mailto:Robin.Hasselloef@sas.dk" target="_top" class="NoAction">Robin.Hasselloef@sas.dk</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1409</td><td></td><td>1705</td><td>ARN</td><td>CPH</td><td>1815</td><td>1830</td><td>D <span style="background-color: Aqua;">&nbsp;&nbsp;</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK,FLYSK</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">16APR22 17:05 (UTC) / 16APR22 19:05 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">16APR22 18:15 (UTC) / 16APR22 20:15 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">16APR22 18:30 (UTC) / 16APR22 20:30 (LT)</td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">D</td>
+				</tr><tr>
+					<td class="right">Day Note</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td style="color:#000000;background-color:Aqua;"><a class="pnr-number">JBN8XS</a></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=16&amp;v=5416&amp;psta=2042&amp;pend=2042&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"><div style="color:#000000;background-color:Aqua;"><a class="pnr-number">JBN8XS</a></div></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sun</span><span class="bigvalue" style="color:rgb(255,0,0);display:block;">17</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">17APR22 00:00 (UTC) / 17APR22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">17APR22 23:59 (UTC) / 18APR22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=17&amp;v=5416&amp;psta=2043&amp;pend=2043&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Mon</span><span class="bigvalue" style="color:rgb();display:block;">18</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">18APR22 00:00 (UTC) / 18APR22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">18APR22 23:59 (UTC) / 19APR22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=18&amp;v=5416&amp;psta=2044&amp;pend=2044&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Tue</span><span class="bigvalue" style="color:rgb();display:block;">19</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">19APR22 00:00 (UTC) / 19APR22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">19APR22 23:59 (UTC) / 20APR22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=19&amp;v=5416&amp;psta=2045&amp;pend=2045&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Wed</span><span class="bigvalue" style="color:rgb();display:block;">20</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 33.3333333333333%, White 33.3333333333333%, White 66.6666666666667%, #EBEB2C 66.6666666666667%, #EBEB2C 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>SK681...</td><td>ARN</td>
+						</tr><tr>
+							<td>CI 0715</td><td>CO 1635</td>
+						</tr>
+					</tbody></table></td><td style="width:50px;background:#F7C603;"><span style="background:#F7C603;display:block;">HTL</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK681</td><td>0715</td><td>0805</td><td>CPH</td><td>FCO</td><td>1031</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK681</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6948">FCO - LIRF - ROME LEONARDO DA VINCI-FIUMICINO APT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">20APR22 07:15 (UTC) / 20APR22 09:15 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">20APR22 08:05 (UTC) / 20APR22 10:05 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">20APR22 10:31 (UTC) / 20APR22 12:31 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIH</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92481a Ellehede, Jakob (X) <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br>SCC - 92622a Lindstrom, Pernilla  <a href="mailto:Pernilla.Lindstroem@sas.dk" target="_top" class="NoAction">Pernilla.Lindstroem@sas.dk</a> <br>CC - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br>CC - 92487a Sveen, Alexander Aristarchos (L) <a href="mailto:alexanderaristarchos.sveen@sas.dk" target="_top" class="NoAction">alexanderaristarchos.sveen@sas.dk</a> <br>CC - 92809a Anusic, Jelena  <a href="mailto:Jelena.Anusic@sas.dk" target="_top" class="NoAction">Jelena.Anusic@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK682</td><td></td><td>1128</td><td>FCO</td><td>CPH</td><td>1356</td><td></td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK682</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6948">FCO - LIRF - ROME LEONARDO DA VINCI-FIUMICINO APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">20APR22 11:28 (UTC) / 20APR22 13:28 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">20APR22 13:56 (UTC) / 20APR22 15:56 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIH</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92481a Ellehede, Jakob  <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br>SCC - 92622a Lindstrom, Pernilla  <a href="mailto:Pernilla.Lindstroem@sas.dk" target="_top" class="NoAction">Pernilla.Lindstroem@sas.dk</a> <br>CC - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br>CC - 92487a Sveen, Alexander Aristarchos (L) <a href="mailto:alexanderaristarchos.sveen@sas.dk" target="_top" class="NoAction">alexanderaristarchos.sveen@sas.dk</a> <br>CC - 92809a Anusic, Jelena  <a href="mailto:Jelena.Anusic@sas.dk" target="_top" class="NoAction">Jelena.Anusic@sas.dk</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1408</td><td></td><td>1505</td><td>CPH</td><td>ARN</td><td>1620</td><td>1635</td><td>D <span style="background-color: Aqua;">&nbsp;&nbsp;</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK,FLYSK</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">20APR22 15:05 (UTC) / 20APR22 17:05 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">20APR22 16:20 (UTC) / 20APR22 18:20 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">20APR22 16:35 (UTC) / 20APR22 18:35 (LT)</td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">D</td>
+				</tr><tr>
+					<td class="right">Day Note</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td style="color:#000000;background-color:Aqua;"><a class="pnr-number">VDU3GG</a></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>1635</td><td>ARN</td><td>ARN</td><td>21APR</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">20APR22 16:35 (UTC) / 20APR22 18:35 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">21APR22 06:40 (UTC) / 21APR22 08:40 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 92503a Schreiber, Kenneth  <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br> - 92481a Ellehede, Jakob  <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br> - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=20&amp;v=5416&amp;psta=2046&amp;pend=2046&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"><div style="color:#000000;background-color:Aqua;"><a class="pnr-number">VDU3GG</a></div></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Thu</span><span class="bigvalue" style="color:rgb();display:block;">21</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 50%, White 50%, White 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>ARN</td><td>SK689...</td><td>ARN</td>
+						</tr><tr>
+							<td>CI 0640</td><td>CO 1348</td>
+						</tr>
+					</tbody></table></td><td style="width:50px;background:#F7C603;"><span style="background:#F7C603;display:block;">HTL</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>20APR</td><td>ARN</td><td>ARN</td><td>0640</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">20APR22 16:35 (UTC) / 20APR22 18:35 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">21APR22 06:40 (UTC) / 21APR22 08:40 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 92503a Schreiber, Kenneth  <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br> - 92481a Ellehede, Jakob  <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br> - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK689</td><td>0640</td><td>0726</td><td>ARN</td><td>LIN</td><td>0954</td><td></td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK689</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=8182">LIN - LIML - MILAN LINATE APT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">21APR22 06:40 (UTC) / 21APR22 08:40 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">21APR22 07:26 (UTC) / 21APR22 09:26 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">21APR22 09:54 (UTC) / 21APR22 11:54 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIL</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92481a Ellehede, Jakob  <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br>SCC - 92503a Schreiber, Kenneth  <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br>CC - 92841a Rimkus, Simas (L,I) <a href="mailto:Simas.Rimkus@sas.dk" target="_top" class="NoAction">Simas.Rimkus@sas.dk</a> <br>CC - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br>CC - 93220a Larsson, Isak (T) <a href="mailto:Isak.Larsson@sas.se" target="_top" class="NoAction">Isak.Larsson@sas.se</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK690</td><td></td><td>1100</td><td>LIN</td><td>ARN</td><td>1333</td><td>1348</td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK690</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=8182">LIN - LIML - MILAN LINATE APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">21APR22 11:00 (UTC) / 21APR22 13:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">21APR22 13:33 (UTC) / 21APR22 15:33 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">21APR22 13:48 (UTC) / 21APR22 15:48 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIL</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92481a Ellehede, Jakob (X) <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br>SCC - 92503a Schreiber, Kenneth  <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br>CC - 92841a Rimkus, Simas (L,I) <a href="mailto:Simas.Rimkus@sas.dk" target="_top" class="NoAction">Simas.Rimkus@sas.dk</a> <br>CC - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br>CC - 93220a Larsson, Isak (T) <a href="mailto:Isak.Larsson@sas.se" target="_top" class="NoAction">Isak.Larsson@sas.se</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>1355</td><td>ARN</td><td>ARN</td><td>22APR</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">21APR22 13:55 (UTC) / 21APR22 15:55 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">22APR22 03:15 (UTC) / 22APR22 05:15 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 92503a Schreiber, Kenneth  <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br> - 92481a Ellehede, Jakob  <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br> - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br> - 92841a Rimkus, Simas  <a href="mailto:Simas.Rimkus@sas.dk" target="_top" class="NoAction">Simas.Rimkus@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=21&amp;v=5416&amp;psta=2047&amp;pend=2047&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Fri</span><span class="bigvalue" style="color:rgb();display:block;">22</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 50%, White 50%, White 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>ARN</td><td>SK1583...</td><td>ARN</td>
+						</tr><tr>
+							<td>CI 0315</td><td>CO 1405</td>
+						</tr>
+					</tbody></table></td><td style="width:50px;background:#F7C603;"><span style="background:#F7C603;display:block;">HTL</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>21APR</td><td>ARN</td><td>ARN</td><td>0315</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">21APR22 13:55 (UTC) / 21APR22 15:55 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">22APR22 03:15 (UTC) / 22APR22 05:15 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 92503a Schreiber, Kenneth  <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br> - 92481a Ellehede, Jakob  <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br> - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br> - 92841a Rimkus, Simas  <a href="mailto:Simas.Rimkus@sas.dk" target="_top" class="NoAction">Simas.Rimkus@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1583</td><td>0315</td><td>0408</td><td>ARN</td><td>AGP</td><td>0829</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK1583</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5670">AGP - LEMG - MALAGA</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">22APR22 03:15 (UTC) / 22APR22 05:15 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">22APR22 04:08 (UTC) / 22APR22 06:08 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">22APR22 08:29 (UTC) / 22APR22 10:29 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIL</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92481a Ellehede, Jakob (X) <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br>SCC - 95990 Galan, Laura (R) <a href="mailto:laura.gabriel@cae.com" target="_top" class="NoAction">laura.gabriel@cae.com</a> <br>CC - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br>CC - 92503a Schreiber, Kenneth (L) <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br>CC - 93220a Larsson, Isak (C) <a href="mailto:Isak.Larsson@sas.se" target="_top" class="NoAction">Isak.Larsson@sas.se</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1584</td><td></td><td>0940</td><td>AGP</td><td>ARN</td><td>1350</td><td>1405</td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK1584</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5670">AGP - LEMG - MALAGA</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">22APR22 09:40 (UTC) / 22APR22 11:40 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">22APR22 13:50 (UTC) / 22APR22 15:50 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">22APR22 14:05 (UTC) / 22APR22 16:05 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIL</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92481a Ellehede, Jakob  <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br>SCC - 95990 Galan, Laura  <a href="mailto:laura.gabriel@cae.com" target="_top" class="NoAction">laura.gabriel@cae.com</a> <br>CC - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br>CC - 92503a Schreiber, Kenneth (L) <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br>CC - 93220a Larsson, Isak  <a href="mailto:Isak.Larsson@sas.se" target="_top" class="NoAction">Isak.Larsson@sas.se</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>1400</td><td>ARN</td><td>ARN</td><td>23APR</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">22APR22 14:00 (UTC) / 22APR22 16:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">23APR22 03:20 (UTC) / 23APR22 05:20 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 95990 Galan, Laura  <a href="mailto:laura.gabriel@cae.com" target="_top" class="NoAction">laura.gabriel@cae.com</a> <br> - 92503a Schreiber, Kenneth  <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br> - 92481a Ellehede, Jakob  <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br> - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=22&amp;v=5416&amp;psta=2048&amp;pend=2048&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sat</span><span class="bigvalue" style="color:rgb(0,0,255);display:block;">23</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 50%, White 50%, White 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>ARN</td><td>SK1573...</td><td>ARN</td>
+						</tr><tr>
+							<td>CI 0320</td><td>CO 1302</td>
+						</tr>
+					</tbody></table></td><td style="width:50px;background:#F7C603;"><span style="background:#F7C603;display:block;">HTL</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>22APR</td><td>ARN</td><td>ARN</td><td>0320</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">22APR22 14:00 (UTC) / 22APR22 16:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">23APR22 03:20 (UTC) / 23APR22 05:20 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 95990 Galan, Laura  <a href="mailto:laura.gabriel@cae.com" target="_top" class="NoAction">laura.gabriel@cae.com</a> <br> - 92503a Schreiber, Kenneth  <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br> - 92481a Ellehede, Jakob  <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br> - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1573</td><td>0320</td><td>0408</td><td>ARN</td><td>ALC</td><td>0818</td><td></td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK1573</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5730">ALC - LEAL - ALICANTE</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">23APR22 03:20 (UTC) / 23APR22 05:20 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">23APR22 04:08 (UTC) / 23APR22 06:08 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">23APR22 08:18 (UTC) / 23APR22 10:18 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIF</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92481a Ellehede, Jakob  <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br>SCC - 92503a Schreiber, Kenneth  <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br>CC - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br>CC - 93220a Larsson, Isak  <a href="mailto:Isak.Larsson@sas.se" target="_top" class="NoAction">Isak.Larsson@sas.se</a> <br>CC - 93145a Lillebæk, Jette  <a href="mailto:jette.lillebaek@sas.se" target="_top" class="NoAction">jette.lillebaek@sas.se</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1574</td><td></td><td>0908</td><td>ALC</td><td>ARN</td><td>1247</td><td>1302</td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK1574</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5730">ALC - LEAL - ALICANTE</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">23APR22 09:08 (UTC) / 23APR22 11:08 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">23APR22 12:47 (UTC) / 23APR22 14:47 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">23APR22 13:02 (UTC) / 23APR22 15:02 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIF</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92481a Ellehede, Jakob (X) <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br>SCC - 92503a Schreiber, Kenneth  <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br>CC - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br>CC - 93220a Larsson, Isak  <a href="mailto:Isak.Larsson@sas.se" target="_top" class="NoAction">Isak.Larsson@sas.se</a> <br>CC - 93145a Lillebæk, Jette  <a href="mailto:jette.lillebaek@sas.se" target="_top" class="NoAction">jette.lillebaek@sas.se</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>1315</td><td>ARN</td><td>ARN</td><td>24APR</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">23APR22 13:15 (UTC) / 23APR22 15:15 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">24APR22 03:25 (UTC) / 24APR22 05:25 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 96880 Ortelli, Monica  <a href="mailto:monica.orlelli@cae.com" target="_top" class="NoAction">monica.orlelli@cae.com</a> <br> - 98106 Alves da Silva, Fabio  <a href="mailto:fabiojorge.alvesdasilva@cae.com" target="_top" class="NoAction">fabiojorge.alvesdasilva@cae.com</a> <br> - 102447 Crabbe, James   <a href="mailto:james.crabbe@cae.com" target="_top" class="NoAction">james.crabbe@cae.com</a> <br> - 113526 Sailer, John  <a href="mailto:john.sailer1@cae.com" target="_top" class="NoAction">john.sailer1@cae.com</a> <br> - 92481a Ellehede, Jakob  <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=23&amp;v=5416&amp;psta=2049&amp;pend=2049&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sun</span><span class="bigvalue" style="color:rgb(255,0,0);display:block;">24</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 33.3333333333333%, White 33.3333333333333%, White 66.6666666666667%, #EBEB2C 66.6666666666667%, #EBEB2C 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>ARN</td><td>SK1841...</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0325</td><td>CO 1445</td>
+						</tr>
+					</tbody></table></td><td style="width:50px;background:#F7C603;"><span style="background:#F7C603;display:block;">HTL</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>HTL</td><td></td><td>23APR</td><td>ARN</td><td>ARN</td><td>0325</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Hotel</td><td class="left">Clarion Hotel ARN</td>
+				</tr><tr>
+					<td class="right">ReservationNo</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Comment</td><td class="left"></td>
+				</tr><tr>
+					<td class="right">Activity</td><td class="left">HTL,Hotel</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">23APR22 13:15 (UTC) / 23APR22 15:15 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">24APR22 03:25 (UTC) / 24APR22 05:25 (LT)</td>
+				</tr><tr>
+					<td class="right">Others who have the same activity</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td> - 96880 Ortelli, Monica  <a href="mailto:monica.orlelli@cae.com" target="_top" class="NoAction">monica.orlelli@cae.com</a> <br> - 98106 Alves da Silva, Fabio  <a href="mailto:fabiojorge.alvesdasilva@cae.com" target="_top" class="NoAction">fabiojorge.alvesdasilva@cae.com</a> <br> - 102447 Crabbe, James   <a href="mailto:james.crabbe@cae.com" target="_top" class="NoAction">james.crabbe@cae.com</a> <br> - 113526 Sailer, John  <a href="mailto:john.sailer1@cae.com" target="_top" class="NoAction">john.sailer1@cae.com</a> <br> - 92481a Ellehede, Jakob  <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1841</td><td>0325</td><td>0437</td><td>ARN</td><td>FCO</td><td>0744</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK1841</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6948">FCO - LIRF - ROME LEONARDO DA VINCI-FIUMICINO APT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">24APR22 03:25 (UTC) / 24APR22 05:25 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">24APR22 04:37 (UTC) / 24APR22 06:37 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">24APR22 07:44 (UTC) / 24APR22 09:44 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIG</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92481a Ellehede, Jakob (X) <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br>SCC - 105619 Roe, Emily (I) <a href="mailto:emily.roe@cae.com" target="_top" class="NoAction">emily.roe@cae.com</a> <br>CC - 93218a Jangendal, Fredrik  <a href="mailto:Fredrik.Jangendal@sas.se" target="_top" class="NoAction">Fredrik.Jangendal@sas.se</a> <br>CC - 93219a Khalagi, Fredrik (T) <a href="mailto:fredrik.khalagi@sas.se" target="_top" class="NoAction">fredrik.khalagi@sas.se</a> <br>CC - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1842</td><td></td><td>0846</td><td>FCO</td><td>ARN</td><td>1142</td><td></td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK1842</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6948">FCO - LIRF - ROME LEONARDO DA VINCI-FIUMICINO APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">24APR22 08:46 (UTC) / 24APR22 10:46 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">24APR22 11:42 (UTC) / 24APR22 13:42 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIG</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92481a Ellehede, Jakob  <a href="mailto:jakob.ellehede@sas.dk" target="_top" class="NoAction">jakob.ellehede@sas.dk</a> <br>SCC - 105619 Roe, Emily (I) <a href="mailto:emily.roe@cae.com" target="_top" class="NoAction">emily.roe@cae.com</a> <br>CC - 93218a Jangendal, Fredrik  <a href="mailto:Fredrik.Jangendal@sas.se" target="_top" class="NoAction">Fredrik.Jangendal@sas.se</a> <br>CC - 93219a Khalagi, Fredrik (T) <a href="mailto:fredrik.khalagi@sas.se" target="_top" class="NoAction">fredrik.khalagi@sas.se</a> <br>CC - 92574a Liptak, Szilvia Petra  <a href="mailto:SzilviaPetra.Liptak@sas.dk" target="_top" class="NoAction">SzilviaPetra.Liptak@sas.dk</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK1407</td><td></td><td>1320</td><td>ARN</td><td>CPH</td><td>1430</td><td>1445</td><td>D <span style="background-color: Aqua;">&nbsp;&nbsp;</span></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK,FLYSK</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=5808">ARN - ESSA - STOCKHOLM ARLANDA APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">24APR22 13:20 (UTC) / 24APR22 15:20 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">24APR22 14:30 (UTC) / 24APR22 16:30 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">24APR22 14:45 (UTC) / 24APR22 16:45 (LT)</td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">D</td>
+				</tr><tr>
+					<td class="right">Day Note</td><td class="left" style="padding:0;"><table border="0">
+						<tbody><tr>
+							<td style="color:#000000;background-color:Aqua;">
+
+
+
+KZFDCO
+
+
+
+
+<br></td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=24&amp;v=5416&amp;psta=2050&amp;pend=2050&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"><div style="color:#000000;background-color:Aqua;">
+
+
+
+KZFDCO
+
+
+
+
+<br></div></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Mon</span><span class="bigvalue" style="color:rgb();display:block;">25</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">25APR22 00:00 (UTC) / 25APR22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">25APR22 23:59 (UTC) / 26APR22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=25&amp;v=5416&amp;psta=2051&amp;pend=2051&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Tue</span><span class="bigvalue" style="color:rgb();display:block;">26</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">26APR22 00:00 (UTC) / 26APR22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">26APR22 23:59 (UTC) / 27APR22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=26&amp;v=5416&amp;psta=2052&amp;pend=2052&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Wed</span><span class="bigvalue" style="color:rgb();display:block;">27</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">27APR22 00:00 (UTC) / 27APR22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">27APR22 23:59 (UTC) / 28APR22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=27&amp;v=5416&amp;psta=2053&amp;pend=2053&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Thu</span><span class="bigvalue" style="color:rgb();display:block;">28</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 50%, White 50%, White 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>SK681...</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0715</td><td>CO 1409</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK681</td><td>0715</td><td>0801</td><td>CPH</td><td>FCO</td><td>1025</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK681</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6948">FCO - LIRF - ROME LEONARDO DA VINCI-FIUMICINO APT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">28APR22 07:15 (UTC) / 28APR22 09:15 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">28APR22 08:01 (UTC) / 28APR22 10:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">28APR22 10:25 (UTC) / 28APR22 12:25 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIF</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92480a Lutzhoft, Henrik Christian (X) <a href="mailto:Henrik.Luetzhoft@sas.dk" target="_top" class="NoAction">Henrik.Luetzhoft@sas.dk</a> <br>SCC - 92622a Lindstrom, Pernilla  <a href="mailto:Pernilla.Lindstroem@sas.dk" target="_top" class="NoAction">Pernilla.Lindstroem@sas.dk</a> <br>CC - 92550a Johansson, Lukas  <a href="mailto:Lukas.Johansson@sas.dk" target="_top" class="NoAction">Lukas.Johansson@sas.dk</a> <br>CC - 92771a Szechniuk, Magdalena (L) <a href="mailto:magdalena.szechniuk@sas.dk" target="_top" class="NoAction">magdalena.szechniuk@sas.dk</a> <br>CC - 92805a Lindberg, Linnea  <a href="mailto:Linnea.Lindberg@sas.dk" target="_top" class="NoAction">Linnea.Lindberg@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK682</td><td></td><td>1125</td><td>FCO</td><td>CPH</td><td>1354</td><td>1409</td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK682</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6948">FCO - LIRF - ROME LEONARDO DA VINCI-FIUMICINO APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">28APR22 11:25 (UTC) / 28APR22 13:25 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">28APR22 13:54 (UTC) / 28APR22 15:54 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">28APR22 14:09 (UTC) / 28APR22 16:09 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIF</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92480a Lutzhoft, Henrik Christian  <a href="mailto:Henrik.Luetzhoft@sas.dk" target="_top" class="NoAction">Henrik.Luetzhoft@sas.dk</a> <br>SCC - 92622a Lindstrom, Pernilla  <a href="mailto:Pernilla.Lindstroem@sas.dk" target="_top" class="NoAction">Pernilla.Lindstroem@sas.dk</a> <br>CC - 92550a Johansson, Lukas  <a href="mailto:Lukas.Johansson@sas.dk" target="_top" class="NoAction">Lukas.Johansson@sas.dk</a> <br>CC - 92771a Szechniuk, Magdalena (L) <a href="mailto:magdalena.szechniuk@sas.dk" target="_top" class="NoAction">magdalena.szechniuk@sas.dk</a> <br>CC - 92805a Lindberg, Linnea  <a href="mailto:Linnea.Lindberg@sas.dk" target="_top" class="NoAction">Linnea.Lindberg@sas.dk</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=28&amp;v=5416&amp;psta=2054&amp;pend=2054&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"><div style="color:#000000;background-color:#FF9900;">Swap with 92709</div></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Fri</span><span class="bigvalue" style="color:rgb();display:block;">29</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 25%, White 25%, White 50%, White 50%, White 75%, White 75%, White 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>SK454...</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0435</td><td>CO 1835</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK454</td><td>0435</td><td>0526</td><td>CPH</td><td>OSL</td><td>0636</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK454</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=9094">OSL - ENGM - GARDEMOEN</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">29APR22 04:35 (UTC) / 29APR22 06:35 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">29APR22 05:26 (UTC) / 29APR22 07:26 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">29APR22 06:36 (UTC) / 29APR22 08:36 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISID</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92482a Fenger, Markus (X) <a href="mailto:Markus.Fenger@sas.dk" target="_top" class="NoAction">Markus.Fenger@sas.dk</a> <br>SCC - 92503a Schreiber, Kenneth  <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br>CC - 92607a Hansen, Julie Tastum  <a href="mailto:JulieTastum.Hansen@sas.dk" target="_top" class="NoAction">JulieTastum.Hansen@sas.dk</a> <br>CC - 92635a Härström, Linn  <a href="mailto:Linn.Haerstroem@sas.dk" target="_top" class="NoAction">Linn.Haerstroem@sas.dk</a> <br>CC - 92846a Romer, Anders  <a href="mailto:Anders.Romer@sas.dk" target="_top" class="NoAction">Anders.Romer@sas.dk</a> <br>CC - 92835a Greve, Mads (U,FAM) <a href="mailto:Mads.Greve@sas.dk" target="_top" class="NoAction">Mads.Greve@sas.dk</a> <br>CC - 93053a Meldgaard Holm, Sofie Flora (U,FAM) <a href="mailto:Sofie.Holm@sas.dk" target="_top" class="NoAction">Sofie.Holm@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK455</td><td></td><td>0715</td><td>OSL</td><td>CPH</td><td>0819</td><td></td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK455</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=9094">OSL - ENGM - GARDEMOEN</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">29APR22 07:15 (UTC) / 29APR22 09:15 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">29APR22 08:19 (UTC) / 29APR22 10:19 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISID</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92482a Fenger, Markus  <a href="mailto:Markus.Fenger@sas.dk" target="_top" class="NoAction">Markus.Fenger@sas.dk</a> <br>SCC - 92503a Schreiber, Kenneth  <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br>CC - 92607a Hansen, Julie Tastum  <a href="mailto:JulieTastum.Hansen@sas.dk" target="_top" class="NoAction">JulieTastum.Hansen@sas.dk</a> <br>CC - 92635a Härström, Linn  <a href="mailto:Linn.Haerstroem@sas.dk" target="_top" class="NoAction">Linn.Haerstroem@sas.dk</a> <br>CC - 92846a Romer, Anders  <a href="mailto:Anders.Romer@sas.dk" target="_top" class="NoAction">Anders.Romer@sas.dk</a> <br>CC - 92835a Greve, Mads (U,FAM) <a href="mailto:Mads.Greve@sas.dk" target="_top" class="NoAction">Mads.Greve@sas.dk</a> <br>CC - 93053a Meldgaard Holm, Sofie Flora (U,FAM) <a href="mailto:Sofie.Holm@sas.dk" target="_top" class="NoAction">Sofie.Holm@sas.dk</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK681</td><td></td><td>0903</td><td>CPH</td><td>FCO</td><td>1125</td><td></td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK681</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6948">FCO - LIRF - ROME LEONARDO DA VINCI-FIUMICINO APT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">29APR22 09:03 (UTC) / 29APR22 11:03 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">29APR22 11:25 (UTC) / 29APR22 13:25 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISID</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92482a Fenger, Markus  <a href="mailto:Markus.Fenger@sas.dk" target="_top" class="NoAction">Markus.Fenger@sas.dk</a> <br>SCC - 92503a Schreiber, Kenneth  <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br>CC - 92607a Hansen, Julie Tastum  <a href="mailto:JulieTastum.Hansen@sas.dk" target="_top" class="NoAction">JulieTastum.Hansen@sas.dk</a> <br>CC - 92635a Härström, Linn  <a href="mailto:Linn.Haerstroem@sas.dk" target="_top" class="NoAction">Linn.Haerstroem@sas.dk</a> <br>CC - 92846a Romer, Anders  <a href="mailto:Anders.Romer@sas.dk" target="_top" class="NoAction">Anders.Romer@sas.dk</a> <br>CC - 92835a Greve, Mads (U,FAM) <a href="mailto:Mads.Greve@sas.dk" target="_top" class="NoAction">Mads.Greve@sas.dk</a> <br>CC - 93053a Meldgaard Holm, Sofie Flora (U,FAM) <a href="mailto:Sofie.Holm@sas.dk" target="_top" class="NoAction">Sofie.Holm@sas.dk</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SZS9160</td><td></td><td>1545</td><td>FCO</td><td>CPH</td><td>1820</td><td>1835</td><td> E2,E3</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SZS9160</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6948">FCO - LIRF - ROME LEONARDO DA VINCI-FIUMICINO APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">29APR22 15:45 (UTC) / 29APR22 17:45 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">29APR22 18:20 (UTC) / 29APR22 20:20 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">29APR22 18:35 (UTC) / 29APR22 20:35 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISID</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92482a Fenger, Markus (X) <a href="mailto:Markus.Fenger@sas.dk" target="_top" class="NoAction">Markus.Fenger@sas.dk</a> <br>SCC - 92503a Schreiber, Kenneth (P) <a href="mailto:kennethjust.schreiber@sas.dk" target="_top" class="NoAction">kennethjust.schreiber@sas.dk</a> <br>CC - 93053a Meldgaard Holm, Sofie Flora (P) <a href="mailto:Sofie.Holm@sas.dk" target="_top" class="NoAction">Sofie.Holm@sas.dk</a> <br>CC - 92835a Greve, Mads (P) <a href="mailto:Mads.Greve@sas.dk" target="_top" class="NoAction">Mads.Greve@sas.dk</a> <br>CC - 92846a Romer, Anders (P) <a href="mailto:Anders.Romer@sas.dk" target="_top" class="NoAction">Anders.Romer@sas.dk</a> <br>CC - 92635a Härström, Linn (P) <a href="mailto:Linn.Haerstroem@sas.dk" target="_top" class="NoAction">Linn.Haerstroem@sas.dk</a> <br>CC - 92607a Hansen, Julie Tastum (P) <a href="mailto:JulieTastum.Hansen@sas.dk" target="_top" class="NoAction">JulieTastum.Hansen@sas.dk</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Legal Exception</td><td class="left">E2,E3</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=29&amp;v=5416&amp;psta=2055&amp;pend=2055&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sat</span><span class="bigvalue" style="color:rgb(0,0,255);display:block;">30</span></td><td style="background-color:#1D7EED !important;color:#FFFFFF !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>EHSBY</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0930</td><td>CO 1200</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>EHSBY</td><td>0930</td><td>0930</td><td>CPH</td><td>CPH</td><td>1200</td><td>1200</td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">EHSBY,Early Home Standby</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">30APR22 09:30 (UTC) / 30APR22 11:30 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">30APR22 09:30 (UTC) / 30APR22 11:30 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">30APR22 12:00 (UTC) / 30APR22 14:00 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">30APR22 12:00 (UTC) / 30APR22 14:00 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=3&amp;day_frm=30&amp;v=5416&amp;psta=2056&amp;pend=2056&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="GroupNotes"><div><strong>SAIL Operations:</strong> Phone:+35318138970
+<strong>GATE INFO LHR </strong>: Contact Swissport on +442089765200
+<strong>GATE INFO AGP</strong> : Contact Groundforce +34952974137</div><div><strong>Designators:</strong> D=DeadHead H=High Rank I=Instructor C=Line Check L=Low Rank N=New On Board X = Landing Pilot P=Passive U=Supernumerary</div></div>
+		</div>
+    
+	</div>
+
+            </form>
+        </div>
+        
+        
+
+        
+</div>
+    <div id="menuButtonHolder">
+        <a href="javascript:return false;" id="linkMenu" class="NoAction">
+            <img src="./april_files/menu_icon.png" alt="Menu"></a>
+    </div>
+    <div class="fadedGreyBackground">
+    </div>
+    <div class="fadedGreyBackgroundSpin">
+    </div>
+    <div id="tabMasterMenu" class="avxyellow" style="position: fixed; top: 45px; left: 0px; width: 280px; z-index: 99; padding: 2px 2px 2px 2px; display: none;">
+        <div id="menuslider" class="touchslider">
+            <div class="touchslider-viewport" style="overflow: hidden; height: 0px; position: relative;">
+                <div style="position: absolute; left: 0px; height: 0px; width: 100000px;">
+                    <div class="touchslider-item" style="position: absolute; left: 0px;"><div class="header">Human Resource</div><ul class="container">
+
+<li><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/HumanResources/HumanResourceMyDocs.aspx"><div class="leftmenu-SYFU188"></div>My Documents</a></li>
+<li><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceMyRoster.aspx"><div class="leftmenu-SYFU141"></div>My Roster</a></li>
+<li><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceMyVoyageReporting.aspx"><div class="leftmenu-SYFU182"></div>Voyage reporting</a></li>
+</ul></div><div class="touchslider-item" style="position: absolute; left: 10000px;"><div class="header">Locations</div><ul class="container">
+
+<li><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx"><div class="leftmenu-SYFU12"></div>Stations</a></li>
+</ul></div><div class="touchslider-item" style="position: absolute; left: 10000px;"><div class="header">Schedule</div><ul class="container">
+
+<li><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/Operations/StationOperations.aspx"><div class="leftmenu-SYFU196"></div>Station Operations</a></li>
+</ul></div>
+                </div>
+            </div>
+            <div class="touchslider-nav"><span class="touchslider-nav-item touchslider-nav-item-current"></span><span class="touchslider-nav-item"></span><span class="touchslider-nav-item"></span></div>
+        </div>
+    </div>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

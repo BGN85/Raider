@@ -1,0 +1,182 @@
+﻿.container li div {
+   background: url(../Images/leftmenu.png) no-repeat top left;
+}
+
+/*
+.container
+{
+    position: fixed; list-style:none; bottom:0; padding:0; width:100%; text-align:center; height:80px;
+}
+.container li
+{
+    display:inline-block; width:64px; text-align:center; vertical-align:top; cursor:pointer;
+}
+.container li div
+{
+    margin-left:16px; margin-top:32px; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; border-bottom-left-radius: 5px 5px; border-bottom-right-radius: 5px 5px;
+}*/
+
+.leftmenu-Archive{ background-position: 0 0 !important; width: 32px; height: 32px; } 
+.leftmenu-Connection{ background-position: 0 -37px !important; width: 32px; height: 32px; } 
+.leftmenu-GroupCAL{ background-position: 0 -74px !important; width: 32px; height: 32px; } 
+.leftmenu-GroupCMP{ background-position: 0 -111px !important; width: 32px; height: 32px; } 
+.leftmenu-GroupHRE{ background-position: 0 -148px !important; width: 32px; height: 32px; } 
+.leftmenu-GroupMON, .leftmenu-SYFU69{ background-position: 0 -185px !important; width: 32px; height: 32px; } 
+.leftmenu-GroupPLAC{ background-position: 0 -222px !important; width: 32px; height: 32px; } 
+.leftmenu-GroupSCHD, .leftmenu-SYFU7{ background-position: 0 -259px !important; width: 32px; height: 32px; } 
+.leftmenu-GroupSYSM, .leftmenu-SYFU87{ background-position: 0 -296px !important; width: 32px; height: 32px; } 
+.leftmenu-GroupVEH{ background-position: 0 -333px !important; width: 32px; height: 32px; } 
+.leftmenu-Leg{ background-position: 0 -370px !important; width: 32px; height: 32px; } 
+.leftmenu-ROSTERBLOCK{ background-position: 0 -407px !important; width: 32px; height: 32px; } 
+.leftmenu-ReportDiagram{ background-position: 0 -444px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU1{ background-position: 0 -481px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU10{ background-position: 0 -518px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU100{ background-position: 0 -555px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU11{ background-position: 0 -592px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU110{ background-position: 0 -629px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU111{ background-position: 0 -666px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU112{ background-position: 0 -703px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU113{ background-position: 0 -740px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU116{ background-position: 0 -777px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU117{ background-position: 0 -814px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU118{ background-position: 0 -851px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU12{ background-position: 0 -888px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU120{ background-position: 0 -925px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU121{ background-position: 0 -962px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU122, .leftmenu-SYFU124, .leftmenu-SYFU148, .leftmenu-SYFU150, .leftmenu-SYFU172, .leftmenu-SYFU60, .leftmenu-SYFU62, .leftmenu-SYFU83, .leftmenu-SYFU98, .leftmenu-SYFU99{ background-position: 0 -999px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU125{ background-position: 0 -1036px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU126{ background-position: 0 -1073px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU127{ background-position: 0 -1110px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU128{ background-position: 0 -1147px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU129{ background-position: 0 -1184px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU13{ background-position: 0 -1221px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU130{ background-position: 0 -1258px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU131{ background-position: 0 -1295px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU132{ background-position: 0 -1332px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU133{ background-position: 0 -1369px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU134{ background-position: 0 -1406px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU137{ background-position: 0 -1443px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU138{ background-position: 0 -1480px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU139{ background-position: 0 -1517px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU14{ background-position: 0 -1554px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU140{ background-position: 0 -1591px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU141{ background-position: 0 -1628px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU142{ background-position: 0 -1665px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU143{ background-position: 0 -1702px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU145, .leftmenu-SYFU149, .leftmenu-SYFU151, .leftmenu-SYFU152, .leftmenu-SYFU153, .leftmenu-SYFU154, .leftmenu-SYFU166, .leftmenu-SYFU169, .leftmenu-SYFU174, .leftmenu-SYFU176, .leftmenu-SYFU84{ background-position: 0 -1739px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU146{ background-position: 0 -1776px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU156{ background-position: 0 -1813px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU16{ background-position: 0 -1850px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU160{ background-position: 0 -1887px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU161{ background-position: 0 -1924px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU164{ background-position: 0 -1961px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU165{ background-position: -37px 0 !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU168{ background-position: -37px -37px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU170{ background-position: -37px -74px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU171{ background-position: -37px -111px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU173{ background-position: -37px -148px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU175{ background-position: -37px -185px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU178{ background-position: -37px -222px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU179{ background-position: -37px -259px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU180{ background-position: -37px -296px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU181{ background-position: -37px -333px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU182{ background-position: -37px -370px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU183{ background-position: -37px -407px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU188{ background-position: -37px -444px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU19,
+.leftmenu-SYFU405 { background-position: -37px -481px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU194{ background-position: -37px -518px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU195{ background-position: -37px -555px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU196{ background-position: -37px -592px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU2{ background-position: -37px -629px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU20{ background-position: -37px -666px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU21{ background-position: -37px -703px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU22{ background-position: -37px -740px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU23{ background-position: -37px -777px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU24{ background-position: -37px -814px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU25{ background-position: -37px -851px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU26{ background-position: -37px -888px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU27{ background-position: -37px -925px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU28{ background-position: -37px -962px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU29{ background-position: -37px -999px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU30{ background-position: -37px -1036px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU31{ background-position: -37px -1073px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU32{ background-position: -37px -1110px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU33{ background-position: -37px -1147px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU34{ background-position: -37px -1184px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU35{ background-position: -37px -1221px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU36{ background-position: -37px -1258px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU37{ background-position: -37px -1295px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU38{ background-position: -37px -1332px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU4{ background-position: -37px -1369px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU46{ background-position: -37px -1406px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU47{ background-position: -37px -1443px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU48{ background-position: -37px -1480px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU49{ background-position: -37px -1517px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU5{ background-position: -37px -1554px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU50{ background-position: -37px -1591px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU50{ background-position: -37px -1628px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU51{ background-position: -37px -1665px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU52{ background-position: -37px -1702px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU53{ background-position: -37px -1739px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU54{ background-position: -37px -1776px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU55{ background-position: -37px -1813px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU56{ background-position: -37px -1850px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU57{ background-position: -37px -1887px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU58{ background-position: -37px -1924px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU59{ background-position: -37px -1961px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU61{ background-position: -74px 0 !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU63{ background-position: -74px -37px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU65{ background-position: -74px -74px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU66{ background-position: -74px -111px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU67{ background-position: -74px -148px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU68{ background-position: -74px -185px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU70{ background-position: -74px -222px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU71{ background-position: -74px -259px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU72{ background-position: -74px -296px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU73{ background-position: -74px -333px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU74{ background-position: -74px -370px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU75{ background-position: -74px -407px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU77{ background-position: -74px -444px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU78{ background-position: -74px -481px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU79{ background-position: -74px -518px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU8{ background-position: -74px -555px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU80{ background-position: -74px -592px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU81{ background-position: -74px -629px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU85{ background-position: -74px -666px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU86{ background-position: -74px -703px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU88{ background-position: -74px -740px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU89{ background-position: -74px -777px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU9{ background-position: -74px -814px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU90{ background-position: -74px -851px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU91{ background-position: -74px -888px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU92{ background-position: -74px -925px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU93{ background-position: -74px -962px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU94{ background-position: -74px -999px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU95{ background-position: -74px -1036px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU96{ background-position: -74px -1073px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU97{ background-position: -74px -1110px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU182{ background-position: -37px -370px !important; width: 32px; height: 32px; }
+.leftmenu-Seniority{ background-position: -74px -1147px !important; width: 32px; height: 32px; } 
+.leftmenu-factory39{ background-position: -74px -1184px !important; width: 32px; height: 32px; } 
+.leftmenu-factory40{ background-position: -74px -1221px !important; width: 32px; height: 32px; } 
+.leftmenu-factory41{ background-position: -74px -1258px !important; width: 32px; height: 32px; } 
+.leftmenu-factory42{ background-position: -74px -1295px !important; width: 32px; height: 32px; } 
+.leftmenu-factory43{ background-position: -74px -1332px !important; width: 32px; height: 32px; } 
+.leftmenu-turnAROUND{ background-position: -74px -1369px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU318{ background-position: -74px -1406px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU231{ background-position: -74px -1443px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU266, .leftmenu-SYFU338 { background-position: -74px -1480px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU328{ background-position: 0 -999px !important; width: 32px; height: 32px; } 
+.leftmenu-SYFU353, .leftmenu-SYFU355{background-position: -74px -1517px !important; width: 32px; height: 32px;}
+.leftmenu-SYFU354{background-position: -74px -1554px !important; width: 32px; height: 32px;}
+.leftmenu-SYFU351{background-position: -74px -1591px !important; width: 32px; height: 32px;}
+.leftmenu-SYFU338{background-position: -74px -1628px !important; width: 32px; height: 32px;}
+.leftmenu-SYFU381{background-position: -74px -1670px !important; width: 32px; height: 32px;}
+.leftmenu-SYFU397{background-position: -74px -1702px !important; width: 32px; height: 32px;}
+.leftmenu-SYFU398{background-position: -74px -1739px !important; width: 32px; height: 32px;}
+.leftmenu-SYFU407{background-position: -74px -1776px !important; width: 32px; height: 32px;}
+.leftmenu-SYFU321{ background-position: 0 -1665px !important; width: 32px; height: 32px; }
+.leftmenu-SYFU448{ background-position: -72px -1811px !important; width: 32px; height: 32px; }
+.leftmenu-SYFU246{ background-position: 0 -1997px !important; width: 32px; height: 32px; }
+.leftmenu-SYFU292 { background-position: -37px -1997px !important; width: 32px; height: 32px; }

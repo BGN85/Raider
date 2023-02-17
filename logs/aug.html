@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<!-- saved from url=(0121)https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceMyRoster.aspx?year=2022&month=8&hresId=5416 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        .dot {
+            height: 14px;
+            width: 14px;
+            background-color: red;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            right: 4px;
+            bottom: 0px;
+        }
+        .dotCounter {
+            color: white;
+              font-size:9px;
+              position:absolute;
+              bottom:3px;
+              right:4px;
+        }
+       
+    </style>
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-capable" content="yes"><meta http-equiv="X-UA-Compatible" content="IE=9"><title>
+	N-OC | Mobile (SZSNOC-RATATOSK)
+</title>
+    <!-- iPhone -->
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-icon-57x57.png?v=22.2.13" sizes="57x57" rel="apple-touch-icon">
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-320x460.png?v=22.2.13" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    <!-- iPhone (Retina) -->
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-icon-114x114.png?v=22.2.13" sizes="114x114" rel="apple-touch-icon">
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-640x920.png?v=22.2.13" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <!-- iPhone 5 -->
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-640x1096.png?v=22.2.13" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <!-- iPad -->
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-icon-72x72.png?v=22.2.13" sizes="72x72" rel="apple-touch-icon">
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-768x1004.png?v=22.2.13" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-748x1024.png?v=22.2.13" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    <!-- iPad (Retina) -->
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-icon-144x144.png?v=22.2.13" sizes="144x144" rel="apple-touch-icon">
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-1536x2008.png?v=22.2.13" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="https://szsnoc.navblue.aero/RaidoMobile/Images/iOS/apple-touch-startup-image-1496x2048.png?v=22.2.13" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link rel="stylesheet" href="./aug_files/Style.css" type="text/css">
+    <link rel="stylesheet" href="./aug_files/Mobile.css" type="text/css">
+    <link rel="stylesheet" href="./aug_files/leftmenu.css" type="text/css">
+
+    <script type="text/javascript" src="./aug_files/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="./aug_files/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./aug_files/jquery.touchslider.min.js"></script>
+    <script type="text/javascript" src="./aug_files/RaidoMobile.js"></script>
+    <script type="text/javascript" src="./aug_files/moment.js"></script>
+    <script type="text/javascript" src="./aug_files/ScrollToPlugin.js"></script>
+    <script type="text/javascript" src="./aug_files/jquery-ui.min.js"></script>
+    
+    <script>
+        const __ENV__ = {
+            VERSION: "22.2.13",
+            APPLICATION_URL: "https://szsnoc.navblue.aero/RaidoMobile",
+            APPLICATION_PATH: "/RaidoMobile",
+            PAGE_URL: "https://szsnoc.navblue.aero",
+            SERVICE_WORKER_URL: ''
+        };
+    </script>
+    <script src="./aug_files/global-store.js" type="module"></script>
+    <script src="./aug_files/trade-badge.js" type="module"></script>
+    
+    <style type="text/css">
+        .CalendarOverlay {
+            display: none;
+            -ms-opacity: 0.8;
+            opacity: 0.8;
+            background-color: #717171;
+            z-index: 2;
+            position: absolute; /*height: 756px;*/
+            width: 100%;
+        }
+
+        .DeletedHiddenInList
+        {
+            display: none;
+        }
+        
+        .actBackground.new
+        {
+            background-color: #3EE3EC;
+        }
+        .actBackground.modified
+        {
+            color: #FFE8E8 !important;
+            background-color: Teal;
+        }
+        .actBackground.Deleted
+        {
+            color: #FFE8E8 !important;
+            background-color: #FF2B2B;
+        }
+        
+        .InnerContainer
+        {
+            float: left;
+            text-align: left;
+        }
+        .c1
+        {
+            width: 60px;
+        }
+        .c2
+        {
+            width: 75px;
+        }
+        .c3
+        {
+            width: 70px;
+        }
+        .ColorBox
+        {
+            width: 24px;
+            height: 10px;
+            float: left;
+        }
+        .ColorInfo
+        {
+            width: 230px;
+            position: absolute;
+            top: -2px;
+            left: 851px;
+        }
+       
+        .tabtrain
+        {
+             width:500px !important;
+
+        }
+        .headertrain {
+            background-color:#9d9c9c !important;
+           
+
+        }
+        .headertrain th {
+            color:#FFFFFF;
+
+        }
+    </style>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            setAndResizeCalendarOverlay();
+
+            // attach click events
+            $('.ItemHeader').live('click', function () {
+                $(this).parent().children('.ItemDetails').toggle();
+                setAndResizeCalendarOverlay();
+            });
+            $('.ItemChildHeader').live('click', function () {
+                $(this).parent().children('.ItemChildDetails').toggle();
+                setAndResizeCalendarOverlay();
+            });
+
+            // scroll to todays date
+            //$('.highlight').scrollTo(-50, 700);
+
+            $('.btnConfirm').live('click', function () {
+                $.ajax({
+                    type: "POST",
+                    url: "../HumanResources/HumanResourceMyRoster.aspx/ConfirmRevision",
+                    data: JSON.stringify({ revisionIds: $(this).attr("revisionIds") }),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+                        if (data.d == "success") {
+                            window.location.reload(true);
+                        } else {
+                            alert("Error occured while confirming revision");
+                        }
+                    },
+                    error: function (data) {
+                        alert("Error occured while confirming revision");
+                    },
+                    complete: function () {
+                    }
+                });
+            });
+
+
+        });
+
+        function setAndResizeCalendarOverlay() {
+            if ($('#MasterMain_TotalNoOfRevisions').val() > 0) {
+                var calendarPanel = $('#ListPanel');
+                $('.CalendarOverlay').css("display", "block").css("height", calendarPanel.height());
+
+            }
+        }
+
+        function openNewWindowAndDownloadRosterFile() {
+            var monthYear = document.getElementById("MasterMain_hfFirstMonth").value;
+            var showCoB = $('#MasterMain_cbxShowCob').is(':checked');
+            window.open("../../Reports/HrRosterReport.ashx?date=" + monthYear + "&showCob=" + showCoB, '_blank');
+        }
+
+    </script>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1085.0" data-gr-ext-installed="">
+    <div id="header" class="avxgrad_yellow alwaysOverlay">
+	
+        <div class="topbar-float topbar-left">
+            <div id="goBackLink" class="go-back-button-container">
+		
+                <button type="button" class="go-back-button" style="background: url(&#39;/RaidoMobile/Images/back.png&#39;) center center;">
+                    <div class="overlay"></div>
+                </button>
+            
+	</div>
+        </div>
+        <div class="topbar-float topbar-center">
+            <a href="https://szsnoc.navblue.aero/RaidoMobile/MainPage.aspx">
+                <img src="./aug_files/logo.png" alt="Company Logo" style="max-height: 30px"></a>
+        </div>
+        <div class="topbar-float topbar-right" style="position:relative;">
+            <div id="tradeCounter" class="topbar-button" style="position:relative; display: inline-block;">
+		
+                <x-trade-badge url="Grids/HumanResources/HumanResourceTradeBoard.aspx" data-dashlane-observed="true"></x-trade-badge>
+            
+	</div>
+            <a id="linkAbout" class="topbar-button" href="https://szsnoc.navblue.aero/RaidoMobile/About.aspx" style="position:relative;"><img src="./aug_files/About.png" alt="" style="border-width:0px;"></a>
+            <a href="https://szsnoc.navblue.aero/RaidoMobile/Logout.aspx" class="topbar-button">
+            <img src="./aug_files/Logout.png" alt="Logout"></a>
+        </div>
+        <br style="clear: left;">
+    
+</div>
+    <div id="wrapper" class="avxgrad_gray">
+	
+        <div style="padding: 10px;">
+            <form name="form" method="post" action="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceMyRoster.aspx?year=2022&amp;month=8&amp;hresId=5416&amp;rnd=308" id="form">
+	<div>
+	<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="rQJwJ7bcbjeNLYRAXcXJRb2sBAmcD4Bw9RMkF8jfjn3s0N4EZAfVEsr9XIx9cHskSw5Ukkci1IO7PSzI6zgOfPgJtpWBOiKQ4sc2oy8JSoqWkJQduwWGjFdzNwJRm9p4K+c0KMKEdckA59XVd/UJzCqfd/uC0R8mlb5F+GFl8kIMy1pL94zkefyRTPfC/hJ3CSRMTV1oo7u/uh+2lE7qUK5mlVO8gEXokOreG6pgeTLjxe2OP74UOSQvVaXh/64zaIf/YcajXVqFSWJFfmxNxLZVivICsYwU815C+w3o8hnpF1P6yQtWyBQ3CAWbM6ncoJfil5lZnVp/JEP4SPRoq44UTAK+ti4JskvGYXvZO1Wo0eDsUmtInq97dFdRJs03GlHsnxh4pLjBGgu3aEk3ZSYHOWqDCUB336fEWnpFAWCrWl52tGqzvMyNNaTOJxIT/039iezST7J6UHdTrH0SCRzWmuOqM0zVNNr2iYOJEcq99fyOcwuWf34NpMX6TWZT0rsV3PdLAmwsnnNx+rHi1FfVUsVTNpdIfOUpSPZHARyMo0Ms+X3lXfaG9xAHI91dQI+ihY/Mg0XImQc1oEdCFg5HWbXHBSoT1lRVfbPGNwkYldRt06iK/Zmx0A1QRzRuS87AhR/IkvsN4OikN9veJNQNZapTVk3PMQZ9rw+q/NuqA7BiP6RFpI9pX7HfsTzlipbaYM7CQkrDFalIk0CWyMriTzGAvJLu7I9mxNcsTcoa6gZgKBExUmxJ2H4BFMO+X5AKktLLsjLSPLz9/HDe6nWTWT/R0hk0ddV1cXX8EFcVQ9KGqeMnYK+5p2hhrclpSdQk0PSat8PTD9Vvqk/dKj3RM2B3qg65Yq2z9fEOwNeKEAZ2QZiHlThHHfBsFFzLYF/CWSpWmH+wrHlN8YQQLG/lStBMAdUET8pSNH8+N7TB9X6FIrmZpsoKaL4srrysGh0u0sIn/U8NRwszlprPgpXimRqd6Cjswt4s72AC0VJpHSlOtkTn2x2UCba0t1HPT36n+3093YumfxnvGZAZ7zN7UDvundpYAA+i/KKS1IponjxNcwm8aB5JKKhjO+dlryRq1x5G3wTEReVH3wCWvQ/6O3dBFE9LynFM9G7tTJWYp6oqOxKWSuEn6L5GsuIZwQXzjmakx7JpvcMmAGEfl72kkFTPlRNjJU0HpQqdOs0YfFNXux2b67Md8kgmABIVY37i+Oh+mK0ApEdo4r2gpkL7ud2QOdXIvr9w69OhjG68eIAw+7930xlg7X5Ry5iWemeQUA0vLPaMekIdxc3lgeFrDwoIWIvT+japltbwULGcNBv5cgtETm0Xdzxg0DMnXSxIPYI5V6OK0SWEcgOw94PAmyyU/Z4J9p7eCmICKnrscVL8WeXYTS4hdHv4ZdOHUa9v+w40DcKVqJzYqaSxlAAwUHXaqdwH/bQZ2VSGu1lWcetWCLj5Lm7Zb3xRYNihJFNqnvtRDBTW2eqEpv9Z3m8I49A5YCRgfaMxwvVC7fOk38B380eESm+zEl2EU0Q3Xg7Rv3rFzFJnEv0J9sz2H4HKuXYVK8HElTvrW0uQp+yDOmSfrjtHrb33FTpXQlRkDB2Lo7KJdKYap4Tvqrza4k8hFe+CnwuETX82jam03MYszCF/1yGJbfmfc7aT6EavepVot9uhnOHpY/mT5KO9MmhS2GSlQoP3tgJfrbDGtUT2i937jw1za7heNjwMhnhf057lcRkM19/GHNP3zYlQwIeo5YWldQ9RbDNYVx4Tm8pn2isRGpGoOb/ZCbeKkSqyzIwb4l845899rYO/xr5O1o3Yp/KmcfvCRTPAaGyf4PFjl7Z80Em/NWbJjzl9rnUOSB5MrG567Yd1NDTlnWIZ6CAzfORHvtuerbHGW55BvqH657rwh7+xxeHtnYYKn4rv8ug+oDwL9vj/jcixBpr2vODTCfzM9x+J2MY5kgDHKsU=">
+	</div>
+
+	<div>
+
+		<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="10421116">
+		<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="JcxtWZIv0q/dJhVt+/Gf4Ji840LcHGlxw/74aH6WBoRyDLztv3txbrkldjwm6SR2o/ponzICAI9zgTnQzrqbppjex+pSgzYG1Cjgafw+/Qpi3036LxoEdm5S9/WIrFCb257xfFcMf1l0hn6yQQLRvaWIIwRdtDG7zOTQHPmc/oOlt3tF4tmOwHsPR4h3c2Wy6QvrzA6N74sDCAWTVi+D42cYmj+tvQMmTLERNuSc8WJWC+gsiU9pyDVRdtq34pGspUmxmpP1nTp3UedFll1/BAAwGNqkjn2QbjxHfXGpa20=">
+	</div>	
+                
+    <input type="hidden" name="ctl00$MasterMain$hfSelectedMonthYear" id="MasterMain_hfSelectedMonthYear" value=" AUG 2022">
+    <input type="hidden" name="ctl00$MasterMain$hfFirstMonth" id="MasterMain_hfFirstMonth" value="7_2022">
+    <input type="hidden" name="ctl00$MasterMain$hfLastMonth" id="MasterMain_hfLastMonth" value="7_2022">
+    <input type="hidden" name="ctl00$MasterMain$hfScrollTo" id="MasterMain_hfScrollTo">
+    <input type="hidden" name="ctl00$MasterMain$TotalNoOfRevisions" id="MasterMain_TotalNoOfRevisions" value="0">
+    <div id="MasterMain_PageHeader_PageHeader" class="PageHeader">
+		
+    <table>
+        <tbody><tr>
+            <td id="MasterMain_PageHeader_PageHeaderLeft" style="width: 15%;"><input type="submit" name="ctl00$MasterMain$PageHeader$ctl00" value="Previous" onclick="fadeToGray();" class="button4"></td>
+		
+            <td id="MasterMain_PageHeader_PageHeaderCenter" style="width: 70%;"><span>August 2022</span></td>
+		
+            <td id="MasterMain_PageHeader_PageHeaderRight" style="width: 15%;"><input type="submit" name="ctl00$MasterMain$PageHeader$ctl01" value="Next" onclick="fadeToGray();" class="button4"></td>
+		
+        </tr>
+    </tbody></table>
+
+	</div>
+
+    <div id="MasterMain_CalendarMasterPanel">
+		
+        <span style="color:White;"><input id="MasterMain_cbxShowCob" type="checkbox" name="ctl00$MasterMain$cbxShowCob"><label for="MasterMain_cbxShowCob">Show Crew On Board</label></span>
+        <input type="submit" name="ctl00$MasterMain$btnPrint" value="Print" onclick="openNewWindowAndDownloadRosterFile(); return false;" id="MasterMain_btnPrint" class="button4 longButton">
+        
+        <br>
+        <br>
+        
+<div class="RoundedArea block">
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    
+                            <div style="float: left; padding: 5px 5px 0 0;">
+                                FDP :
+                            </div>
+
+                            <div class="BoxItem borders" style="float: left; margin-right: 10px">
+                                14:39
+                            </div>
+                        
+                            <div style="float: left; padding: 5px 5px 0 0;">
+                                Duty :
+                            </div>
+
+                            <div class="BoxItem borders" style="float: left; margin-right: 10px">
+                                22:9
+                            </div>
+                        
+                            <div style="float: left; padding: 5px 5px 0 0;">
+                                BLH :
+                            </div>
+
+                            <div class="BoxItem borders" style="float: left; margin-right: 10px">
+                                11:2
+                            </div>
+                        
+                            <div style="float: left; padding: 5px 5px 0 0;">
+                                BLH :
+                            </div>
+
+                            <div class="BoxItem borders" style="float: left; margin-right: 10px">
+                                11:02
+                            </div>
+                        
+                            <div style="float: left; padding: 5px 5px 0 0;">
+                                Duty :
+                            </div>
+
+                            <div class="BoxItem borders" style="float: left; margin-right: 10px">
+                                22:09
+                            </div>
+                        
+                            <div style="float: left; padding: 5px 5px 0 0;">
+                                FDP :
+                            </div>
+
+                            <div class="BoxItem borders" style="float: left; margin-right: 10px">
+                                14:39
+                            </div>
+                        
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+        
+        
+        <div id="MasterMain_CalendarOverlay" class="CalendarOverlay">
+			
+        
+		</div>
+        <div id="ListPanel" class="ListPanel">
+			
+        <div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Mon</span><span class="bigvalue" style="color:rgb();display:block;">1</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">01AUG22 00:00 (UTC) / 01AUG22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">01AUG22 23:59 (UTC) / 02AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=1&amp;v=5416&amp;psta=2031&amp;pend=2031&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Tue</span><span class="bigvalue" style="color:rgb();display:block;">2</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">02AUG22 00:00 (UTC) / 02AUG22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">02AUG22 23:59 (UTC) / 03AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=2&amp;v=5416&amp;psta=2032&amp;pend=2032&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Wed</span><span class="bigvalue" style="color:rgb();display:block;">3</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">03AUG22 00:01 (UTC) / 03AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">03AUG22 23:59 (UTC) / 04AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=3&amp;v=5416&amp;psta=2033&amp;pend=2033&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Thu</span><span class="bigvalue" style="color:rgb();display:block;">4</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">04AUG22 00:01 (UTC) / 04AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">04AUG22 23:59 (UTC) / 05AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=4&amp;v=5416&amp;psta=2034&amp;pend=2034&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Fri</span><span class="bigvalue" style="color:rgb();display:block;">5</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">05AUG22 00:01 (UTC) / 05AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">05AUG22 23:59 (UTC) / 06AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=5&amp;v=5416&amp;psta=2035&amp;pend=2035&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sat</span><span class="bigvalue" style="color:rgb(0,0,255);display:block;">6</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">06AUG22 00:00 (UTC) / 06AUG22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">06AUG22 23:59 (UTC) / 07AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=6&amp;v=5416&amp;psta=2036&amp;pend=2036&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sun</span><span class="bigvalue" style="color:rgb(255,0,0);display:block;">7</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">07AUG22 00:00 (UTC) / 07AUG22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">07AUG22 23:59 (UTC) / 08AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=7&amp;v=5416&amp;psta=2037&amp;pend=2037&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Mon</span><span class="bigvalue" style="color:rgb();display:block;">8</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">08AUG22 00:01 (UTC) / 08AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">08AUG22 23:59 (UTC) / 09AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=8&amp;v=5416&amp;psta=2038&amp;pend=2038&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Tue</span><span class="bigvalue" style="color:rgb();display:block;">9</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">09AUG22 00:01 (UTC) / 09AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">09AUG22 23:59 (UTC) / 10AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=9&amp;v=5416&amp;psta=2039&amp;pend=2039&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Wed</span><span class="bigvalue" style="color:rgb();display:block;">10</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">10AUG22 00:01 (UTC) / 10AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">10AUG22 23:59 (UTC) / 11AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=10&amp;v=5416&amp;psta=2040&amp;pend=2040&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Thu</span><span class="bigvalue" style="color:rgb();display:block;">11</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">11AUG22 00:01 (UTC) / 11AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">11AUG22 23:59 (UTC) / 12AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=11&amp;v=5416&amp;psta=2041&amp;pend=2041&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Fri</span><span class="bigvalue" style="color:rgb();display:block;">12</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">12AUG22 00:01 (UTC) / 12AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">12AUG22 23:59 (UTC) / 13AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=12&amp;v=5416&amp;psta=2042&amp;pend=2042&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sat</span><span class="bigvalue" style="color:rgb(0,0,255);display:block;">13</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">13AUG22 00:00 (UTC) / 13AUG22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">13AUG22 23:59 (UTC) / 14AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=13&amp;v=5416&amp;psta=2043&amp;pend=2043&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sun</span><span class="bigvalue" style="color:rgb(255,0,0);display:block;">14</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">14AUG22 00:00 (UTC) / 14AUG22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">14AUG22 23:59 (UTC) / 15AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=14&amp;v=5416&amp;psta=2044&amp;pend=2044&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Mon</span><span class="bigvalue" style="color:rgb();display:block;">15</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">15AUG22 00:01 (UTC) / 15AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">15AUG22 23:59 (UTC) / 16AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=15&amp;v=5416&amp;psta=2045&amp;pend=2045&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Tue</span><span class="bigvalue" style="color:rgb();display:block;">16</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">16AUG22 00:01 (UTC) / 16AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">16AUG22 23:59 (UTC) / 17AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=16&amp;v=5416&amp;psta=2046&amp;pend=2046&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Wed</span><span class="bigvalue" style="color:rgb();display:block;">17</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">17AUG22 00:01 (UTC) / 17AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">17AUG22 23:59 (UTC) / 18AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=17&amp;v=5416&amp;psta=2047&amp;pend=2047&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Thu</span><span class="bigvalue" style="color:rgb();display:block;">18</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">18AUG22 00:01 (UTC) / 18AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">18AUG22 23:59 (UTC) / 19AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=18&amp;v=5416&amp;psta=2048&amp;pend=2048&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Fri</span><span class="bigvalue" style="color:rgb();display:block;">19</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">19AUG22 00:01 (UTC) / 19AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">19AUG22 23:59 (UTC) / 20AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=19&amp;v=5416&amp;psta=2049&amp;pend=2049&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sat</span><span class="bigvalue" style="color:rgb(0,0,255);display:block;">20</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">20AUG22 00:00 (UTC) / 20AUG22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">20AUG22 23:59 (UTC) / 21AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=20&amp;v=5416&amp;psta=2050&amp;pend=2050&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sun</span><span class="bigvalue" style="color:rgb(255,0,0);display:block;">21</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">21AUG22 00:00 (UTC) / 21AUG22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">21AUG22 23:59 (UTC) / 22AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=21&amp;v=5416&amp;psta=2051&amp;pend=2051&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Mon</span><span class="bigvalue" style="color:rgb();display:block;">22</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">22AUG22 00:01 (UTC) / 22AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">22AUG22 23:59 (UTC) / 23AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=22&amp;v=5416&amp;psta=2052&amp;pend=2052&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Tue</span><span class="bigvalue" style="color:rgb();display:block;">23</span></td><td style="background-color:#679491 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>AL</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>AL</td><td></td><td>0001</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">AL,Annual Leave</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">23AUG22 00:01 (UTC) / 23AUG22 02:01 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">23AUG22 23:59 (UTC) / 24AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=23&amp;v=5416&amp;psta=2053&amp;pend=2053&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Wed</span><span class="bigvalue" style="color:rgb();display:block;">24</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">24AUG22 00:00 (UTC) / 24AUG22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">24AUG22 23:59 (UTC) / 25AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=24&amp;v=5416&amp;psta=2054&amp;pend=2054&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Thu</span><span class="bigvalue" style="color:rgb();display:block;">25</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">25AUG22 00:00 (UTC) / 25AUG22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">25AUG22 23:59 (UTC) / 26AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=25&amp;v=5416&amp;psta=2055&amp;pend=2055&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Fri</span><span class="bigvalue" style="color:rgb();display:block;">26</span></td><td style="background-color:#9C9696 !important;color:#000000 !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>OFF</td><td>CPH</td>
+						</tr><tr>
+							<td></td><td>2359</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>OFF</td><td></td><td>0000</td><td>CPH</td><td>CPH</td><td>2359</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">OFF,Day Off</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">26AUG22 00:00 (UTC) / 26AUG22 02:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">26AUG22 23:59 (UTC) / 27AUG22 01:59 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=26&amp;v=5416&amp;psta=2056&amp;pend=2056&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sat</span><span class="bigvalue" style="color:rgb(0,0,255);display:block;">27</span></td><td style="background-color:#1D7EED !important;color:#FFFFFF !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>EHSBY</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0200</td><td>CO 1000</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>EHSBY</td><td>0200</td><td>0200</td><td>CPH</td><td>CPH</td><td>1000</td><td>1000</td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">EHSBY,Early Home Standby</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">27AUG22 02:00 (UTC) / 27AUG22 04:00 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">27AUG22 02:00 (UTC) / 27AUG22 04:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">27AUG22 10:00 (UTC) / 27AUG22 12:00 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">27AUG22 10:00 (UTC) / 27AUG22 12:00 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=27&amp;v=5416&amp;psta=2057&amp;pend=2057&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Sun</span><span class="bigvalue" style="color:rgb(255,0,0);display:block;">28</span></td><td style="background-color:#1D7EED !important;color:#FFFFFF !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>EHSBY</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0200</td><td>CO 1200</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>EHSBY</td><td>0200</td><td>0200</td><td>CPH</td><td>CPH</td><td>1200</td><td>1200</td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">EHSBY,Early Home Standby</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">28AUG22 02:00 (UTC) / 28AUG22 04:00 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">28AUG22 02:00 (UTC) / 28AUG22 04:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">28AUG22 12:00 (UTC) / 28AUG22 14:00 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">28AUG22 12:00 (UTC) / 28AUG22 14:00 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=28&amp;v=5416&amp;psta=2058&amp;pend=2058&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Mon</span><span class="bigvalue" style="color:rgb();display:block;">29</span></td><td style="background-color:#1D7EED !important;color:#FFFFFF !important;"><table border="0">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>EHSBY</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0200</td><td>CO 1200</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>EHSBY</td><td>0200</td><td>0200</td><td>CPH</td><td>CPH</td><td>1200</td><td>1200</td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">EHSBY,Early Home Standby</td>
+				</tr><tr>
+					<td class="right">Station</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">29AUG22 02:00 (UTC) / 29AUG22 04:00 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">29AUG22 02:00 (UTC) / 29AUG22 04:00 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">29AUG22 12:00 (UTC) / 29AUG22 14:00 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">29AUG22 12:00 (UTC) / 29AUG22 14:00 (LT)</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=29&amp;v=5416&amp;psta=2059&amp;pend=2059&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Tue</span><span class="bigvalue" style="color:rgb();display:block;">30</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 50%, White 50%, White 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>SK595...</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0545</td><td>CO 1414</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK595</td><td>0545</td><td>0637</td><td>CPH</td><td>KEF</td><td>0946</td><td></td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK595</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=7794">KEF - BIKF - REYKJAVIK-KEFLAVIK INTL</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">30AUG22 05:45 (UTC) / 30AUG22 07:45 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">30AUG22 06:37 (UTC) / 30AUG22 08:37 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">30AUG22 09:46 (UTC) / 30AUG22 09:46 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIN</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92480a Lutzhoft, Henrik Christian  <a href="mailto:Henrik.Luetzhoft@sas.dk" target="_top" class="NoAction">Henrik.Luetzhoft@sas.dk</a> <br>SCC - 92585a Larsen, Karima  <a href="mailto:KarimaNathalie.Larsen@sas.dk" target="_top" class="NoAction">KarimaNathalie.Larsen@sas.dk</a> <br>CC - 93824a Djarling, Mille (N) <a href="mailto:Mille.Djarling@sas.dk" target="_top" class="NoAction">Mille.Djarling@sas.dk</a> <br>CC - 93942a Watanabe, Daniella Gryckdal (N) <a href="mailto:Daniella.Watanabe@sas.dk" target="_top" class="NoAction">Daniella.Watanabe@sas.dk</a> <br>CC - 92835a Greve, Mads  <a href="mailto:Mads.Greve@sas.dk" target="_top" class="NoAction">Mads.Greve@sas.dk</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK596</td><td></td><td>1048</td><td>KEF</td><td>CPH</td><td>1359</td><td>1414</td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK596</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=7794">KEF - BIKF - REYKJAVIK-KEFLAVIK INTL</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">30AUG22 10:48 (UTC) / 30AUG22 10:48 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">30AUG22 13:59 (UTC) / 30AUG22 15:59 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">30AUG22 14:14 (UTC) / 30AUG22 16:14 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISIN</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92480a Lutzhoft, Henrik Christian (X) <a href="mailto:Henrik.Luetzhoft@sas.dk" target="_top" class="NoAction">Henrik.Luetzhoft@sas.dk</a> <br>SCC - 92585a Larsen, Karima  <a href="mailto:KarimaNathalie.Larsen@sas.dk" target="_top" class="NoAction">KarimaNathalie.Larsen@sas.dk</a> <br>CC - 93824a Djarling, Mille (N) <a href="mailto:Mille.Djarling@sas.dk" target="_top" class="NoAction">Mille.Djarling@sas.dk</a> <br>CC - 93942a Watanabe, Daniella Gryckdal (N) <a href="mailto:Daniella.Watanabe@sas.dk" target="_top" class="NoAction">Daniella.Watanabe@sas.dk</a> <br>CC - 92835a Greve, Mads  <a href="mailto:Mads.Greve@sas.dk" target="_top" class="NoAction">Mads.Greve@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=30&amp;v=5416&amp;psta=2060&amp;pend=2060&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="calendarDayDiv"><div class="ListItem"><div class="ItemHeader" onclick=""><table border="0">
+				<tbody><tr>
+					<td class="datearea"><span class="smallvalue" style="display:block;">Wed</span><span class="bigvalue" style="color:rgb();display:block;">31</span></td><td style="background:-webkit-linear-gradient(left, White 0%, White 50%, White 50%, White 100%);"><table border="0" style="text-shadow:2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+						<tbody><tr>
+
+						</tr><tr>
+							<td>CPH</td><td>SK681...</td><td>CPH</td>
+						</tr><tr>
+							<td>CI 0715</td><td>CO 1355</td>
+						</tr>
+					</tbody></table></td>
+				</tr>
+			</tbody></table></div><div class="ItemDetails"><div class="ItemDetailsLabels"><table border="0">
+				<tbody><tr>
+					<td>Activity</td><td>CI</td><td>STD</td><td>Dep</td><td>Arr</td><td>STA</td><td>CO</td><td>Info</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK681</td><td>0715</td><td>0756</td><td>CPH</td><td>FCO</td><td>1016</td><td></td><td></td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK681</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6948">FCO - LIRF - ROME LEONARDO DA VINCI-FIUMICINO APT</a></td>
+				</tr><tr>
+					<td class="right">CheckIn</td><td class="left">31AUG22 07:15 (UTC) / 31AUG22 09:15 (LT)</td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">31AUG22 07:56 (UTC) / 31AUG22 09:56 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">31AUG22 10:16 (UTC) / 31AUG22 12:16 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISII</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis  <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92483a Olesen, Michael (X) <a href="mailto:michaelgilberthaaning.olesen@sas.dk" target="_top" class="NoAction">michaelgilberthaaning.olesen@sas.dk</a> <br>SCC - 92585a Larsen, Karima  <a href="mailto:KarimaNathalie.Larsen@sas.dk" target="_top" class="NoAction">KarimaNathalie.Larsen@sas.dk</a> <br>CC - 93036a Olsson, Jonatan  <a href="mailto:Jonatan.Olsson@sas.dk" target="_top" class="NoAction">Jonatan.Olsson@sas.dk</a> <br>CC - 93824a Djarling, Mille (N) <a href="mailto:Mille.Djarling@sas.dk" target="_top" class="NoAction">Mille.Djarling@sas.dk</a> <br>CC - 92840a Petersen, Ida  <a href="mailto:Ida.Petersen2@sas.dk" target="_top" class="NoAction">Ida.Petersen2@sas.dk</a> <br></td>
+				</tr>
+			</tbody></table></div></div><div class="ItemChildHolder"><div class="ItemChildHeader" onclick=""><table border="0">
+				<tbody><tr class="">
+					<td>SK682</td><td></td><td>1118</td><td>FCO</td><td>CPH</td><td>1340</td><td>1355</td><td>X</td>
+				</tr>
+			</tbody></table></div><div class="ItemChildDetails"><table border="0">
+				<tbody><tr>
+					<td class="right">Activity</td><td class="left">SK682</td>
+				</tr><tr>
+					<td class="right">Departure</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6948">FCO - LIRF - ROME LEONARDO DA VINCI-FIUMICINO APT</a></td>
+				</tr><tr>
+					<td class="right">Arrival</td><td class="left"><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx?id=6512">CPH - EKCH - COPENHAGEN AIRPORT</a></td>
+				</tr><tr>
+					<td class="right">Start</td><td class="left">31AUG22 11:18 (UTC) / 31AUG22 13:18 (LT)</td>
+				</tr><tr>
+					<td class="right">End</td><td class="left">31AUG22 13:40 (UTC) / 31AUG22 15:40 (LT)</td>
+				</tr><tr>
+					<td class="right">CheckOut</td><td class="left">31AUG22 13:55 (UTC) / 31AUG22 15:55 (LT)</td>
+				</tr><tr>
+					<td class="right">STC</td><td class="left">J</td>
+				</tr><tr>
+					<td class="right">Aircraft Reg</td><td class="left">EISII</td>
+				</tr><tr>
+					<td class="right">Version</td><td class="left">32H1</td>
+				</tr><tr>
+					<td class="right">Type</td><td class="left">32N</td>
+				</tr><tr>
+					<td class="right">Crew On Board</td><td class="left">CP - 92648a Beganovic, Adis (X) <a href="mailto:adis.beganovic@sas.dk" target="_top" class="NoAction">adis.beganovic@sas.dk</a> <br>FO - 92483a Olesen, Michael  <a href="mailto:michaelgilberthaaning.olesen@sas.dk" target="_top" class="NoAction">michaelgilberthaaning.olesen@sas.dk</a> <br>SCC - 92585a Larsen, Karima  <a href="mailto:KarimaNathalie.Larsen@sas.dk" target="_top" class="NoAction">KarimaNathalie.Larsen@sas.dk</a> <br>CC - 93036a Olsson, Jonatan  <a href="mailto:Jonatan.Olsson@sas.dk" target="_top" class="NoAction">Jonatan.Olsson@sas.dk</a> <br>CC - 93824a Djarling, Mille (N) <a href="mailto:Mille.Djarling@sas.dk" target="_top" class="NoAction">Mille.Djarling@sas.dk</a> <br>CC - 92840a Petersen, Ida  <a href="mailto:Ida.Petersen2@sas.dk" target="_top" class="NoAction">Ida.Petersen2@sas.dk</a> <br></td>
+				</tr><tr>
+					<td class="right">Roster Designators</td><td class="left">X</td>
+				</tr>
+			</tbody></table></div></div><div class="ItemDetailsLabels"><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceDayNoteEdit.aspx?year_frm=2022&amp;month_frm=7&amp;day_frm=31&amp;v=5416&amp;psta=2061&amp;pend=2061&amp;title=Crew%20Notes&amp;cust_note=true" class="button4">Notes</a></div></div><div class="ItemNotes"></div></div></div><div class="GroupNotes"><div><strong>SAIL Operations:</strong> Phone:+35318138970
+<strong>GATE INFO LHR </strong>: Contact Swissport on +442089765200
+<strong>GATE INFO AGP</strong> : Contact Groundforce +34952974137</div><div><strong>Designators:</strong> D=DeadHead H=High Rank I=Instructor C=Line Check L=Low Rank N=New On Board X = Landing Pilot P=Passive U=Supernumerary</div></div>
+		</div>
+    
+	</div>
+
+            </form>
+        </div>
+        
+        
+
+        
+</div>
+    <div id="menuButtonHolder">
+        <a href="javascript:return false;" id="linkMenu" class="NoAction">
+            <img src="./aug_files/menu_icon.png" alt="Menu"></a>
+    </div>
+    <div class="fadedGreyBackground">
+    </div>
+    <div class="fadedGreyBackgroundSpin">
+    </div>
+    <div id="tabMasterMenu" class="avxyellow" style="position: fixed; top: 45px; left: 0px; width: 280px; z-index: 99; padding: 2px 2px 2px 2px; display: none;">
+        <div id="menuslider" class="touchslider">
+            <div class="touchslider-viewport" style="overflow: hidden; height: 0px; position: relative;">
+                <div style="position: absolute; left: 0px; height: 0px; width: 100000px;">
+                    <div class="touchslider-item" style="position: absolute; left: 0px;"><div class="header">Human Resource</div><ul class="container">
+
+<li><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/HumanResources/HumanResourceMyDocs.aspx"><div class="leftmenu-SYFU188"></div>My Documents</a></li>
+<li><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceMyRoster.aspx"><div class="leftmenu-SYFU141"></div>My Roster</a></li>
+<li><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/HumanResources/HumanResourceMyVoyageReporting.aspx"><div class="leftmenu-SYFU182"></div>Voyage reporting</a></li>
+</ul></div><div class="touchslider-item" style="position: absolute; left: 10000px;"><div class="header">Locations</div><ul class="container">
+
+<li><a href="https://szsnoc.navblue.aero/RaidoMobile/Grids/Station.aspx"><div class="leftmenu-SYFU12"></div>Stations</a></li>
+</ul></div><div class="touchslider-item" style="position: absolute; left: 10000px;"><div class="header">Schedule</div><ul class="container">
+
+<li><a href="https://szsnoc.navblue.aero/RaidoMobile/Dialogues/Operations/StationOperations.aspx"><div class="leftmenu-SYFU196"></div>Station Operations</a></li>
+</ul></div>
+                </div>
+            </div>
+            <div class="touchslider-nav"><span class="touchslider-nav-item touchslider-nav-item-current"></span><span class="touchslider-nav-item"></span><span class="touchslider-nav-item"></span></div>
+        </div>
+    </div>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

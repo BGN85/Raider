@@ -1,0 +1,311 @@
+﻿.loginButton {
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.ListPanel {
+    text-align: center;
+}
+
+.ListPanel table {
+    border-spacing: 0px;
+    width: 100%;
+}
+
+.ListPanel .ListItem, .ListPanel .GroupNotes div, .BoxItem {
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #000;
+    background-color: #FFFFFF;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.BoxItem {
+    padding: 5px; /*10px 5px 10px 5px; */
+}
+
+.ListPanel .GroupNotes div {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ListPanel .ListItem:hover {
+    background-color: #F9F9F9;
+}
+
+.ListPanel .ItemHeader, .ListPanel .ItemChildHeader {
+    cursor: pointer;
+}
+
+    .ListPanel .ItemHeader table td table td {
+        width: 33%;
+    }
+
+.ListPanel .ItemDetails {
+    display: none;
+    border-top: 1px #000000 solid;
+}
+
+.ListPanel .ItemNotes div {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-top: 1px #000000 solid;
+}
+
+    .ListPanel .ItemNotes div p {
+        margin: 0px;
+        padding: 0px;
+    }
+
+.ListPanel .ItemChildHeader, .ListPanel .ItemDetailsLabels {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ListPanel .ItemDetailsLabels {
+    font-weight: bold;
+}
+
+.ListPanel .ItemChildHeader td, .ListPanel .ItemDetailsLabels td {
+    width: 10%;
+}
+
+.ListPanel .ItemChildDetails {
+    display: none;
+    border-top: 1px #000000 solid;
+    border-bottom: 1px #000000 solid;
+}
+
+.ListPanel .ItemChildTableDetails {
+    border-top: 0px;
+    border-bottom: 1px #000000 solid;
+}
+
+    .ListPanel .ItemChildDetails td, .ListPanel .ItemChildTableDetails td {
+        /*width: 50%;*/
+        padding: 4px;
+    }
+
+        .ListPanel .ItemChildDetails td:nth-child(even), .ListPanel .ItemChildTableDetails td:nth-child(even) {
+            width: 70%;
+        }
+
+        .ListPanel .ItemChildDetails td:nth-child(odd), .ListPanel .ItemChildTableDetails td:nth-child(odd) {
+            width: 30%;
+        }
+
+    .ListPanel .ItemChildDetails tr:nth-child(even), .ListPanel .ItemChildTableDetails tr:nth-child(even) {
+        background-color: #E8E8E8;
+    }
+
+    .ListPanel .ItemChildDetails tr:nth-child(odd), .ListPanel .ItemChildTableDetails tr:nth-child(odd) {
+        background-color: #D0D0D0;
+    }
+
+.ListPanel .ItemChildTableDetailsHeader {
+    background-color: #fff;
+    font-weight: bold;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.ListPanel .bigvalue {
+    font-size: 14pt;
+}
+
+.ListPanel .smallvalue {
+    font-size: 8pt;
+}
+
+.ListPanel .datearea {
+    border-right: 1px #000000 solid;
+    width: 50px;
+    height: 38px; /* this is the min height of the list item */
+}
+
+.ListPanel .highlight {
+    border: 1px solid #00f;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #00f;
+}
+
+.ListPanel .ModifiedValue {
+    background-color: #90EE90;
+}
+
+.PageHeader {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.PageHeader {
+    border: 0;
+    padding: 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f6dea5), to( #f8b617));
+    background: -moz-linear-gradient(top, #f6dea5, #f8b617);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f6dea5, endColorstr=#f8b617);
+    font-size: 11pt;
+    line-height: 20pt;
+    color: #000;
+    height: 30px;
+}
+
+.PageHeader table {
+    width: 100%;
+}
+
+.SelectorBox {
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #000;
+    background-color: #FFFFFF;
+    margin-bottom: 8px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.SelectorBox .Float {
+    float: left;
+}
+
+input.BigButton, input.BigButton[disabled="disabled"], input.BigButton:disabled {
+    font-family: Verdana, Tahoma, Helvetica;
+    font-size: 8pt;
+    border: 0px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #000;
+    background-color: #FFFFFF;
+    margin-bottom: 8px;
+    height: 30px;
+    color: #FFF;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-text-size-adjust: none;
+    -webkit-text-fill-color: rgba(200, 200, 200, 1);
+    -webkit-opacity: 1;
+}
+
+.alwaysOverlay {
+    z-index: 4 !important;
+}
+
+.revisionListItem {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 3;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 5px 5px 5px black;
+    -webkit-box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px black;
+    background-color: #FFFFFF;
+    margin-bottom: 8px;
+    margin-top: -48px;
+}
+
+.revisionListItem .ItemHeader {
+    background-color: red;
+    border: 2px solid white;
+}
+
+.revisionListItem .ItemHeader:hover {
+    background-color: darkred;
+}
+
+.revisionHeader {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.confirmButtonDiv {
+    padding: 5px;
+}
+
+.btnConfirm {
+    -webkit-text-fill-color: rgba(255, 255, 255, 1) !important;
+}
+/******** 2018 *********/
+.radioBig {
+    width: 2em;
+    height: 2em;
+}
+
+.PageHeader {
+    border: 0;
+    padding: 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f6dea5), to( #f8b617));
+    background: -moz-linear-gradient(top, #f6dea5, #f8b617);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f6dea5, endColorstr=#f8b617);
+    font-size: 11pt;
+    line-height: 20pt;
+    color: #000;
+    height: 30px;
+}
+
+.editRow1 {
+    background-color: #e5e5e5;
+}
+
+.editRow2 {
+    background-color: White;
+}
+
+.editRow3 {
+    background-color: Silver;
+}
+
+.mLabelText {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.mText {
+    font-size: 16px;
+}
+
+.labok {
+    color: green;
+    font-weight: bold;
+}
+
+.laberror {
+    color: red;
+    font-weight: bold;
+}
+
+.go-back-button-container {
+    padding-left: 3.5em;
+}
+
+.go-back-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    outline:none;
+}
+
+.overlay {
+    width: 25px;
+    height: 25px;
+}
+
+.overlay.disabled {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    background: gray;
+    border-radius: 25px;
+    cursor: not-allowed;
+}
