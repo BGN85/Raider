@@ -76,7 +76,7 @@ for month in months:
     sasdata.extend(data)
 
 # Write the extracted data to a CSV file
-with open('main.csv', 'w', newline='') as file:
+with open('flight_data.csv', 'w', newline='') as file:
     writer = csv.writer(file, quoting=csv.QUOTE_NONE, escapechar='\\')
     for table in sasdata:
         row_data = []
@@ -96,7 +96,7 @@ with open('main.csv', 'w', newline='') as file:
         writer.writerow(row_data)
 
 # Read the contents of the file and remove backslashes
-with open('main.csv', 'r') as file:
+with open('flight_data.csv', 'r') as file:
     contents = file.read()
     contents = contents.replace('\\', '')
 
@@ -122,12 +122,12 @@ for row in reader:
     data.append(row)
 
 # Write the output data to a file
-with open('main.csv', 'w', newline='') as outfile:
+with open('flight_data.csv', 'w', newline='') as outfile:
     writer = csv.writer(outfile)
     writer.writerows(data)
 
 # Read the data from the CSV file
-with open('main.csv', 'r') as file:
+with open('flight_data.csv', 'r') as file:
     data = [line.strip().split(',') for line in file]
 
 # Convert the duration strings to timedelta objects and sum them up
