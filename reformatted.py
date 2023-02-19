@@ -2,6 +2,7 @@ import csv
 from bs4 import BeautifulSoup
 from datetime import datetime
 import os
+from jinja2 import Environment, FileSystemLoader
 
 if os.path.exists("flight_data_temp.csv"):
     os.remove("flight_data_temp.csv")
@@ -119,16 +120,15 @@ for month in months:
                     ])
 
 
-with open('flight_data_temp.csv', 'r', newline='') as infile, \
-        open('flight_data_updated.csv', 'w', newline='') as outfile:
-
+with open('flight_data_temp.csv', 'r', newline='') as infile:
     reader = csv.reader(infile)
-    writer = csv.writer(outfile)
 
     # Write the header row to the output file
     header_row = next(reader)
     header_row.insert(7, 'Total Time')
-    writer.writerow(header_row)
+
+    # Store the updated rows in a list
+    updated_rows = [header_row]
 
     # Loop through each row in the input file
     for row in reader:
@@ -149,21 +149,29 @@ with open('flight_data_temp.csv', 'r', newline='') as infile, \
         # Insert the total time into the row
         row.insert(7, total_block_time_str)
 
-        # Write the updated row to the output file
-        writer.writerow(row)
+        # Add the updated row to the list
+        updated_rows.append(row)
 
-total_hours, total_minutes = 0, 0
+# Write the updated rows to the output file
+with open('output.csv', 'w', newline='') as outfile:
+    writer = csv.writer(outfile)
+    writer.writerows(updated_rows)
 
-with open("flight_data_updated.csv", "r", newline="") as csvfile:
+# Calculate the total cumulative flight time
+total_hours = 0
+total_minutes = 0
+
+with open('output.csv', 'r', newline='') as csvfile:
     reader = csv.reader(csvfile)
     next(reader)  # skip header row
+
     for row in reader:
         # Get the total time from the 8th column
         total_time = row[7]
 
         # Calculate the hours and minutes from the total time
-        total_hours += int(total_time.split(":")[0])
-        total_minutes += int(total_time.split(":")[1])
+        total_hours += int(total_time.split(':')[0])
+        total_minutes += int(total_time.split(':')[1])
 
 # Convert the total minutes to hours if greater than 60
 total_hours += total_minutes // 60
@@ -171,3 +179,22 @@ total_minutes %= 60
 
 # Print the total cumulative flight time in HH:MM format
 print(f"Total cumulative flight time: {total_hours:02}:{total_minutes:02}")
+# Format the total duration as a string
+total_duration_str = f"{total_hours:02}:{total_minutes:02}"
+
+# Load the CSV data
+with open('output.csv', 'r') as f:
+    reader = csv.reader(f)
+    header = next(reader)
+    data = list(reader)
+
+# Create a Jinja environment and load the template
+env = Environment(loader=FileSystemLoader('.'))
+template = env.get_template('template.html')
+
+# Render the template with the data
+output = template.render(header=header, data=data, total_duration_str=total_duration_str)
+
+# Write the output to a file
+with open('output.html', 'w') as f:
+    f.write(output)

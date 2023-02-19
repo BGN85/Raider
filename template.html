@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Logbook output.</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			padding: 20px;
+		}
+
+		h1 {
+			font-size: 28px;
+			margin-bottom: 20px;
+		}
+
+		table {
+			border-collapse: collapse;
+			margin: 20px 0;
+			width: 100%;
+		}
+
+		th, td {
+			padding: 10px;
+			border: 1px solid #ccc;
+		}
+
+		th {
+			background-color: #f2f2f2;
+			font-weight: bold;
+		}
+
+		.total {
+			font-weight: bold;
+		}
+
+		.crew-list {
+			display: none;
+		}
+
+		.expand-crew-button {
+			cursor: pointer;
+			font-size: 14px;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+
+		.expand-crew-button:hover {
+			color: #666;
+		}
+	
+		.crewfont {
+			font-size: 12px;
+			align: centre;
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</style>
+</head>
+<body>
+<h1>My SAS logbook, all times UTC.</h1>
+
+<table>
+	<thead>
+	<tr>
+		<th>ACTIVITY</th>
+		<th>DEP</th>
+		<th>ARR</th>
+		<th>DATE</th>
+		<th>OFF</th>
+		<th>DATE</th>
+		<th>ON</th>
+		<th>TOTAL</th>
+		<th>AC-REG</th>
+		<th>TYPE</th>
+		<th>CREW</th>
+	</tr>
+	</thead>
+	<tbody>
+	<!-- Insert data from the CSV file here -->
+	{% for row in data %}
+	<tr>
+		<td>{{ row[0] }}</td>
+		<td>{{ row[1] }}</td>
+		<td>{{ row[2] }}</td>
+		<td>{{ row[3] }}</td>
+		<td>{{ row[4] }}</td>
+		<td>{{ row[5] }}</td>
+		<td>{{ row[6] }}</td>
+		<td>{{ row[7] }}</td>
+		<td>{{ row[8] }}</td>
+		<td>{{ row[9] }}</td>
+		<td class="crewfont">
+			{% set crew_list = row[10].split(' ') %}
+			{% for item in crew_list %}
+			{% if '@' in item %}
+			{{ item }}
+			{% endif %}
+			{% endfor %}
+		</td>
+	</tr>
+	<tr>
+	
+	
+	</tr>
+	{% endfor %}
+	<tr>
+		<td colspan="7" class="total">Total duration:</td>
+		<td class="total">{{ total_duration_str }}</td>
+	</tr>
+	</tbody>
+</table>
+
+<script>
+	function expandCrew(button) {
+		button.style.display = 'none';
+		button.nextElementSibling.style.display = 'block';
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
