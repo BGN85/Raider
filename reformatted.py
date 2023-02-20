@@ -7,11 +7,16 @@ from jinja2 import Environment, FileSystemLoader
 if os.path.exists("flight_data_temp.csv"):
     os.remove("flight_data_temp.csv")
 
+# Initial definitions for what we are trying to achieve.
 # Define the header row for the CSV file.
 header_row = [
     'Activity', 'Departure', 'Arrival', 'Date', 'Off', 'Date', 'On', 'Aircraft Reg', 'Type', 'Crew On Board'
 ]
-
+# Columns we want to scrape data from.
+columns = [
+    'Activity', 'Departure', 'Arrival', 'Start', 'End', 'Aircraft Reg', 'Type', 'Crew On Board',
+]
+# Renaming inaccurately named aircraft types
 version_mapping = {"32C": "A320", "32N": "A20N"}
 # List of months in order
 months = ['feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct']
@@ -21,21 +26,11 @@ with open("flight_data_temp.csv", "w", newline="") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(header_row)
 
-# Define the column headings
-columns = [
-    "Activity",
-    "Departure",
-    "Arrival",
-    "Start",
-    "End",
-    "Aircraft Reg",
-    "Type",
-    "Crew On Board",
+# Defining a variable for deadhead and positioning flights
+roster_columns = [
+    'Roster Designators'
 ]
 
-roster_columns = [
-    "Roster Designators"
-]
 
 # Select the correct HTML file in order of months
 for month in months:
@@ -49,7 +44,7 @@ for month in months:
         print(f"The file '{file_name}' does not exist.")
         continue
 
-    # Parse the garbage HTML using BeautifulSoup
+    # Parse the HTML using BeautifulSoup
     soup = BeautifulSoup(contents, "html.parser")
 
     # Find all div elements with class "calendarDayDiv"

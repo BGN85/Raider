@@ -68,6 +68,7 @@
 	
 	
 	
+	
 	</style>
 </head>
 <body>
@@ -86,7 +87,6 @@
 		<th>TOTAL</th>
 		<th>AC-REG</th>
 		<th>TYPE</th>
-		<th>CREW</th>
 	</tr>
 	</thead>
 	<tbody>
@@ -103,14 +103,6 @@
 		<td>{{ row[7] }}</td>
 		<td>{{ row[8] }}</td>
 		<td>{{ row[9] }}</td>
-		<td class="crewfont">
-			{% set crew_list = row[10].split(' ') %}
-			{% for item in crew_list %}
-			{% if '@' in item %}
-			{{ item }}
-			{% endif %}
-			{% endfor %}
-		</td>
 	</tr>
 	<tr>
 	
@@ -129,6 +121,7 @@
 		button.style.display = 'none';
 		button.nextElementSibling.style.display = 'block';
 	}
+
 
 
 

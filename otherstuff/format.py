@@ -75,7 +75,7 @@ for month in months:
     all_data.extend(data)
 
 # Write the extracted data to a CSV file
-with open('main.csv', 'w', newline='') as file:
+with open('../flight_data.csv', 'w', newline='') as file:
     writer = csv.writer(file, quoting=csv.QUOTE_NONE, escapechar='\\')
     for table in all_data:
         row_data = []
@@ -94,21 +94,39 @@ with open('main.csv', 'w', newline='') as file:
                                                               'INTL', 'REYKJAVIK-KEFLAVIK']]
         writer.writerow(row_data)
 
-# Read the data from the CSV file
-with open('main.csv', 'r') as file:
-    data = [line.strip().split(',') for line in file]
+# Read the contents of the file and remove backslashes
+with open('../flight_data.csv', 'r') as file:
+    contents = file.read()
+contents = contents.replace('\\', '')
 
-# Convert the duration strings to timedelta objects and sum them up
+# Process the CSV data
+reader = csv.reader(contents.splitlines())
+data = []
 total_duration = timedelta()
-for row in data:
-    duration_parts = row[-1].split(':')
-    duration = timedelta(hours=int(duration_parts[0]), minutes=int(duration_parts[1]))
-    total_duration += duration
+for row in reader:
+    # Add the dash to the AC. registration
+    row[16] = row[16][:2] + '-' + row[16][2:]
+    # Replace 32C with A320 and 32N with A20N
+    if row[17] == '32C':
+        row[17] = 'A320'
+    elif row[17] == '32N':
+        row[17] = 'A20N'
+    # Calculate the block time
+    dep_time = datetime.strptime(row[3], '%H:%M')
+    arr_time = datetime.strptime(row[11], '%H:%M')
+    block_time = arr_time - dep_time
+    total_duration += block_time
+    # Add the formatted block time to the row
+    hours, minutes = divmod(block_time.seconds // 60, 60)
+    row.append(f"{hours:02d}:{minutes:02d}")
+    # Add the row to the output data
+    data.append(row)
 
-# Convert the total duration to a string in the hh:mm format
-total_duration_str = f"{total_duration.days*24+total_duration.seconds//3600:02d}:{(total_duration.seconds//60)%60:02d}"
+# Write the output data to a file
+with open('../flight_data.csv', 'w', newline='') as outfile:
+    writer = csv.writer(outfile)
+    writer.writerows(data)
 
-# Print the total duration
-print(f"Total duration: {total_duration_str}")
-
-
+# Print the cumulative total of hours and minutes in the last column in hh:mm format
+hours, minutes = divmod(total_duration.seconds // 60, 60)
+print(f"Cumulative total: {hours:02d}:{minutes:02d}")
